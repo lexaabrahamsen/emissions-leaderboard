@@ -1,0 +1,85 @@
+---
+import '../styles/global.css';
+import { loadMeta } from '../lib/data';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'How concentrated are global emissions? A leaderboard of the producers behind them.' } = Astro.props;
+const meta = loadMeta();
+const pageTitle = title === 'Home' ? 'Carbon Majors Leaderboard' : `${title} · Carbon Majors Leaderboard`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+  </head>
+  <body>
+    <a class="visually-hidden" href="#main">Skip to content</a>
+
+    {meta.dataSource === 'sample' && (
+      <div class="sample-banner" role="note">
+        Showing <strong>synthetic sample data</strong>. Entity names and numbers are invented.
+        Add the real downloads to <code>data/raw/</code> before publishing.
+      </div>
+    )}
+
+    <header class="site-header">
+      <div class="container">
+        <a href="/" class="wordmark">Carbon Majors</a>
+        <nav aria-label="Main">
+          <a href="/leaderboard">Leaderboard</a>
+          <a href="/methodology">How we calculated this</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          Producer emissions: <a href="https://carbonmajors.org">Carbon Majors database</a>, InfluenceMap
+          (non-commercial use). Per-capita emissions: <a href="https://ourworldindata.org/co2-and-greenhouse-gas-emissions">Our World in Data</a>
+          (CC BY 4.0), based on the Global Carbon Project.
+        </p>
+        <p class="built">Data built {new Date(meta.builtAt).toLocaleDateString('en-US', { dateStyle: 'medium' })}.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .sample-banner {
+    background: var(--accent-soft);
+    color: var(--text);
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  .site-header { border-bottom: 1px solid var(--border); }
+  .site-header .container {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 1rem; padding-block: 1rem; flex-wrap: wrap;
+  }
+  .wordmark { font-weight: 600; text-decoration: none; }
+  nav { display: flex; gap: 1.25rem; font-size: 0.95rem; }
+  main { padding-block: 2.5rem 4rem; }
+  .site-footer {
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    padding-block: 1.5rem;
+  }
+  .built { margin-bottom: 0; }
+</style>

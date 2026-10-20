@@ -1,0 +1,951 @@
+year,parent_entity,parent_type,commodity,production_value,production_unit,total_emissions_MtCO2e
+1960,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,29.213,Million bbl/yr,16.9593
+1960,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,24.345,Bcf/yr,15.9567
+1961,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,27.777,Million bbl/yr,17.1625
+1961,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,48.381,Bcf/yr,19.3939
+1962,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,40.475,Million bbl/yr,20.2408
+1962,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,45.059,Bcf/yr,19.0812
+1963,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,31.369,Million bbl/yr,19.7195
+1963,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,41.887,Bcf/yr,17.0963
+1964,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,53.952,Million bbl/yr,22.5790
+1964,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,34.168,Bcf/yr,20.3316
+1965,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,37.299,Million bbl/yr,21.2053
+1965,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,54.947,Bcf/yr,23.6686
+1966,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,45.435,Million bbl/yr,19.5050
+1966,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,33.616,Bcf/yr,21.5388
+1967,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,39.478,Million bbl/yr,19.3776
+1967,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,58.298,Bcf/yr,24.8569
+1968,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,46.560,Million bbl/yr,24.7557
+1968,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,52.899,Bcf/yr,24.0847
+1969,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,57.436,Million bbl/yr,25.8882
+1969,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,54.447,Bcf/yr,27.9253
+1970,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,37.498,Million bbl/yr,22.1672
+1970,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,40.366,Bcf/yr,24.8099
+1971,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,58.987,Million bbl/yr,28.1732
+1971,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,53.761,Bcf/yr,28.4538
+1972,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,43.659,Million bbl/yr,24.6377
+1972,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,40.979,Bcf/yr,23.0484
+1973,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,62.939,Million bbl/yr,26.4131
+1973,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,53.488,Bcf/yr,31.5994
+1974,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,66.329,Million bbl/yr,31.8535
+1974,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,49.453,Bcf/yr,27.2567
+1975,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,65.078,Million bbl/yr,26.2414
+1975,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,62.978,Bcf/yr,26.0077
+1976,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,64.125,Million bbl/yr,33.1747
+1976,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,58.360,Bcf/yr,32.3025
+1977,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,55.606,Million bbl/yr,27.6750
+1977,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,48.232,Bcf/yr,27.6636
+1978,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,72.785,Million bbl/yr,33.1169
+1978,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,54.751,Bcf/yr,32.0243
+1979,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,66.442,Million bbl/yr,30.2795
+1979,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,85.159,Bcf/yr,36.7548
+1980,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,83.852,Million bbl/yr,35.8423
+1980,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,54.293,Bcf/yr,32.8421
+1981,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,62.853,Million bbl/yr,30.8132
+1981,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,90.266,Bcf/yr,36.2830
+1982,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,78.146,Million bbl/yr,34.7772
+1982,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,53.820,Bcf/yr,34.8231
+1983,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,73.982,Million bbl/yr,31.8102
+1983,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,95.812,Bcf/yr,41.6626
+1984,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,63.364,Million bbl/yr,33.5866
+1984,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,69.383,Bcf/yr,34.8679
+1985,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,101.523,Million bbl/yr,42.0601
+1985,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,63.007,Bcf/yr,34.6952
+1986,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,69.456,Million bbl/yr,39.3719
+1986,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,57.313,Bcf/yr,37.8949
+1987,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,77.755,Million bbl/yr,41.6542
+1987,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,69.451,Bcf/yr,39.5774
+1988,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,92.188,Million bbl/yr,41.8897
+1988,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,87.071,Bcf/yr,41.3922
+1989,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,71.928,Million bbl/yr,38.2630
+1989,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,98.878,Bcf/yr,40.5906
+1990,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,94.659,Million bbl/yr,39.1021
+1990,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,99.853,Bcf/yr,48.2066
+1991,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,74.529,Million bbl/yr,48.8602
+1991,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,81.957,Bcf/yr,40.1542
+1992,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,108.461,Million bbl/yr,44.2293
+1992,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,111.625,Bcf/yr,50.5637
+1993,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,89.240,Million bbl/yr,49.3366
+1993,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,100.375,Bcf/yr,45.9290
+1994,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,73.060,Million bbl/yr,39.7223
+1994,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,102.821,Bcf/yr,45.3687
+1995,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,82.175,Million bbl/yr,53.4200
+1995,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,86.289,Bcf/yr,47.8521
+1996,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,107.806,Million bbl/yr,49.7272
+1996,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,82.813,Bcf/yr,47.1924
+1997,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,103.784,Million bbl/yr,51.7347
+1997,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,97.853,Bcf/yr,41.7377
+1998,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,126.956,Million bbl/yr,52.8080
+1998,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,107.783,Bcf/yr,52.9145
+1999,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,143.324,Million bbl/yr,57.7266
+1999,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,118.965,Bcf/yr,52.0669
+2000,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,90.485,Million bbl/yr,44.2772
+2000,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,92.519,Bcf/yr,52.8825
+2001,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,85.080,Million bbl/yr,55.8241
+2001,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,114.619,Bcf/yr,58.8372
+2002,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,104.797,Million bbl/yr,50.4973
+2002,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,82.586,Bcf/yr,53.9555
+2003,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,109.089,Million bbl/yr,52.2062
+2003,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,76.714,Bcf/yr,46.7621
+2004,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,84.557,Million bbl/yr,48.1420
+2004,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,105.086,Bcf/yr,50.9986
+2005,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,134.285,Million bbl/yr,54.2606
+2005,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,122.193,Bcf/yr,58.2256
+2006,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,118.702,Million bbl/yr,53.9452
+2006,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,126.977,Bcf/yr,52.5676
+2007,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,130.913,Million bbl/yr,63.7011
+2007,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,134.489,Bcf/yr,59.8126
+2008,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,105.887,Million bbl/yr,59.5712
+2008,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,89.915,Bcf/yr,51.8716
+2009,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,95.561,Million bbl/yr,51.8682
+2009,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,131.780,Bcf/yr,57.8395
+2010,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,145.041,Million bbl/yr,62.3216
+2010,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,122.797,Bcf/yr,56.0052
+2011,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,109.884,Million bbl/yr,59.2623
+2011,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,131.090,Bcf/yr,64.7942
+2012,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,144.486,Million bbl/yr,66.1427
+2012,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,131.916,Bcf/yr,57.2857
+2013,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,162.839,Million bbl/yr,70.9403
+2013,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,115.426,Bcf/yr,69.4522
+2014,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,130.798,Million bbl/yr,64.8659
+2014,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,100.977,Bcf/yr,66.9388
+2015,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,97.577,Million bbl/yr,62.8527
+2015,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,121.550,Bcf/yr,70.3600
+2016,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,155.134,Million bbl/yr,62.7095
+2016,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,143.662,Bcf/yr,68.2416
+2017,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,116.496,Million bbl/yr,58.2564
+2017,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,163.207,Bcf/yr,67.1942
+2018,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,98.458,Million bbl/yr,59.5450
+2018,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,180.076,Bcf/yr,72.9722
+2019,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,118.044,Million bbl/yr,72.9177
+2019,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,141.526,Bcf/yr,61.9165
+2020,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,180.278,Million bbl/yr,75.9498
+2020,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,120.476,Bcf/yr,75.7045
+2021,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,177.347,Million bbl/yr,72.9676
+2021,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,148.985,Bcf/yr,71.7628
+2022,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,177.146,Million bbl/yr,78.3164
+2022,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,146.879,Bcf/yr,75.5008
+2023,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,133.833,Million bbl/yr,76.9967
+2023,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,148.694,Bcf/yr,70.9546
+2024,"Sample Petroleum Co.",Investor-owned Company,Oil & NGL,109.672,Million bbl/yr,66.2363
+2024,"Sample Petroleum Co.",Investor-owned Company,Natural Gas,115.020,Bcf/yr,70.1803
+1981,"Example Energy Corp",Investor-owned Company,Oil & NGL,140.134,Million bbl/yr,80.9875
+1981,"Example Energy Corp",Investor-owned Company,Natural Gas,179.212,Bcf/yr,77.4043
+1982,"Example Energy Corp",Investor-owned Company,Oil & NGL,206.584,Million bbl/yr,108.7524
+1982,"Example Energy Corp",Investor-owned Company,Natural Gas,151.261,Bcf/yr,93.1714
+1983,"Example Energy Corp",Investor-owned Company,Oil & NGL,210.292,Million bbl/yr,89.8288
+1983,"Example Energy Corp",Investor-owned Company,Natural Gas,184.148,Bcf/yr,94.5033
+1984,"Example Energy Corp",Investor-owned Company,Oil & NGL,208.374,Million bbl/yr,111.7571
+1984,"Example Energy Corp",Investor-owned Company,Natural Gas,208.160,Bcf/yr,115.9271
+1985,"Example Energy Corp",Investor-owned Company,Oil & NGL,261.510,Million bbl/yr,106.2715
+1985,"Example Energy Corp",Investor-owned Company,Natural Gas,193.256,Bcf/yr,124.6954
+1986,"Example Energy Corp",Investor-owned Company,Oil & NGL,228.570,Million bbl/yr,135.7403
+1986,"Example Energy Corp",Investor-owned Company,Natural Gas,210.901,Bcf/yr,115.3310
+1987,"Example Energy Corp",Investor-owned Company,Oil & NGL,335.498,Million bbl/yr,145.5819
+1987,"Example Energy Corp",Investor-owned Company,Natural Gas,198.005,Bcf/yr,127.7928
+1988,"Example Energy Corp",Investor-owned Company,Oil & NGL,286.055,Million bbl/yr,147.6976
+1988,"Example Energy Corp",Investor-owned Company,Natural Gas,234.466,Bcf/yr,152.1616
+1989,"Example Energy Corp",Investor-owned Company,Oil & NGL,240.657,Million bbl/yr,151.2156
+1989,"Example Energy Corp",Investor-owned Company,Natural Gas,271.956,Bcf/yr,153.0371
+1990,"Example Energy Corp",Investor-owned Company,Oil & NGL,327.860,Million bbl/yr,138.9312
+1990,"Example Energy Corp",Investor-owned Company,Natural Gas,247.556,Bcf/yr,158.5898
+1991,"Example Energy Corp",Investor-owned Company,Oil & NGL,288.409,Million bbl/yr,171.6925
+1991,"Example Energy Corp",Investor-owned Company,Natural Gas,322.833,Bcf/yr,144.3125
+1992,"Example Energy Corp",Investor-owned Company,Oil & NGL,278.767,Million bbl/yr,147.6196
+1992,"Example Energy Corp",Investor-owned Company,Natural Gas,422.667,Bcf/yr,187.0558
+1993,"Example Energy Corp",Investor-owned Company,Oil & NGL,337.032,Million bbl/yr,167.3535
+1993,"Example Energy Corp",Investor-owned Company,Natural Gas,307.473,Bcf/yr,181.2759
+1994,"Example Energy Corp",Investor-owned Company,Oil & NGL,309.170,Million bbl/yr,153.8408
+1994,"Example Energy Corp",Investor-owned Company,Natural Gas,462.986,Bcf/yr,185.6783
+1995,"Example Energy Corp",Investor-owned Company,Oil & NGL,318.996,Million bbl/yr,169.3036
+1995,"Example Energy Corp",Investor-owned Company,Natural Gas,426.903,Bcf/yr,204.8341
+1996,"Example Energy Corp",Investor-owned Company,Oil & NGL,431.665,Million bbl/yr,177.7112
+1996,"Example Energy Corp",Investor-owned Company,Natural Gas,468.315,Bcf/yr,216.5817
+1997,"Example Energy Corp",Investor-owned Company,Oil & NGL,515.882,Million bbl/yr,206.4095
+1997,"Example Energy Corp",Investor-owned Company,Natural Gas,321.654,Bcf/yr,188.4888
+1998,"Example Energy Corp",Investor-owned Company,Oil & NGL,452.591,Million bbl/yr,220.9471
+1998,"Example Energy Corp",Investor-owned Company,Natural Gas,282.879,Bcf/yr,179.3169
+1999,"Example Energy Corp",Investor-owned Company,Oil & NGL,532.388,Million bbl/yr,224.5360
+1999,"Example Energy Corp",Investor-owned Company,Natural Gas,500.391,Bcf/yr,220.4477
+2000,"Example Energy Corp",Investor-owned Company,Oil & NGL,485.115,Million bbl/yr,214.8989
+2000,"Example Energy Corp",Investor-owned Company,Natural Gas,318.571,Bcf/yr,193.7443
+2001,"Example Energy Corp",Investor-owned Company,Oil & NGL,435.816,Million bbl/yr,216.6684
+2001,"Example Energy Corp",Investor-owned Company,Natural Gas,360.603,Bcf/yr,209.6400
+2002,"Example Energy Corp",Investor-owned Company,Oil & NGL,307.123,Million bbl/yr,199.8581
+2002,"Example Energy Corp",Investor-owned Company,Natural Gas,464.074,Bcf/yr,250.1298
+2003,"Example Energy Corp",Investor-owned Company,Oil & NGL,459.695,Million bbl/yr,236.6431
+2003,"Example Energy Corp",Investor-owned Company,Natural Gas,496.368,Bcf/yr,262.2995
+2004,"Example Energy Corp",Investor-owned Company,Oil & NGL,590.561,Million bbl/yr,248.7484
+2004,"Example Energy Corp",Investor-owned Company,Natural Gas,478.078,Bcf/yr,227.8931
+2005,"Example Energy Corp",Investor-owned Company,Oil & NGL,457.229,Million bbl/yr,226.4774
+2005,"Example Energy Corp",Investor-owned Company,Natural Gas,454.037,Bcf/yr,229.9770
+2006,"Example Energy Corp",Investor-owned Company,Oil & NGL,600.878,Million bbl/yr,241.0091
+2006,"Example Energy Corp",Investor-owned Company,Natural Gas,573.984,Bcf/yr,252.5921
+2007,"Example Energy Corp",Investor-owned Company,Oil & NGL,629.997,Million bbl/yr,305.5424
+2007,"Example Energy Corp",Investor-owned Company,Natural Gas,520.033,Bcf/yr,291.9659
+2008,"Example Energy Corp",Investor-owned Company,Oil & NGL,631.930,Million bbl/yr,263.9635
+2008,"Example Energy Corp",Investor-owned Company,Natural Gas,482.868,Bcf/yr,279.9625
+2009,"Example Energy Corp",Investor-owned Company,Oil & NGL,512.643,Million bbl/yr,283.6112
+2009,"Example Energy Corp",Investor-owned Company,Natural Gas,589.449,Bcf/yr,319.6674
+2010,"Example Energy Corp",Investor-owned Company,Oil & NGL,561.330,Million bbl/yr,254.3442
+2010,"Example Energy Corp",Investor-owned Company,Natural Gas,777.081,Bcf/yr,312.0808
+2011,"Example Energy Corp",Investor-owned Company,Oil & NGL,646.099,Million bbl/yr,298.3062
+2011,"Example Energy Corp",Investor-owned Company,Natural Gas,611.610,Bcf/yr,264.8024
+2012,"Example Energy Corp",Investor-owned Company,Oil & NGL,541.617,Million bbl/yr,291.4080
+2012,"Example Energy Corp",Investor-owned Company,Natural Gas,787.195,Bcf/yr,335.1137
+2013,"Example Energy Corp",Investor-owned Company,Oil & NGL,580.789,Million bbl/yr,323.8574
+2013,"Example Energy Corp",Investor-owned Company,Natural Gas,524.890,Bcf/yr,317.2935
+2014,"Example Energy Corp",Investor-owned Company,Oil & NGL,435.456,Million bbl/yr,280.8973
+2014,"Example Energy Corp",Investor-owned Company,Natural Gas,571.154,Bcf/yr,336.3963
+2015,"Example Energy Corp",Investor-owned Company,Oil & NGL,691.205,Million bbl/yr,349.5297
+2015,"Example Energy Corp",Investor-owned Company,Natural Gas,739.320,Bcf/yr,334.8468
+2016,"Example Energy Corp",Investor-owned Company,Oil & NGL,449.593,Million bbl/yr,290.2828
+2016,"Example Energy Corp",Investor-owned Company,Natural Gas,742.496,Bcf/yr,333.0848
+2017,"Example Energy Corp",Investor-owned Company,Oil & NGL,678.958,Million bbl/yr,370.1102
+2017,"Example Energy Corp",Investor-owned Company,Natural Gas,804.507,Bcf/yr,322.6935
+2018,"Example Energy Corp",Investor-owned Company,Oil & NGL,731.323,Million bbl/yr,319.2688
+2018,"Example Energy Corp",Investor-owned Company,Natural Gas,756.576,Bcf/yr,311.8067
+2019,"Example Energy Corp",Investor-owned Company,Oil & NGL,595.159,Million bbl/yr,327.2949
+2019,"Example Energy Corp",Investor-owned Company,Natural Gas,773.875,Bcf/yr,325.8731
+2020,"Example Energy Corp",Investor-owned Company,Oil & NGL,692.685,Million bbl/yr,385.4303
+2020,"Example Energy Corp",Investor-owned Company,Natural Gas,695.536,Bcf/yr,371.8113
+2021,"Example Energy Corp",Investor-owned Company,Oil & NGL,486.370,Million bbl/yr,314.9952
+2021,"Example Energy Corp",Investor-owned Company,Natural Gas,815.504,Bcf/yr,403.0239
+2022,"Example Energy Corp",Investor-owned Company,Oil & NGL,874.556,Million bbl/yr,363.8245
+2022,"Example Energy Corp",Investor-owned Company,Natural Gas,841.866,Bcf/yr,356.8002
+2023,"Example Energy Corp",Investor-owned Company,Oil & NGL,641.222,Million bbl/yr,333.7433
+2023,"Example Energy Corp",Investor-owned Company,Natural Gas,632.775,Bcf/yr,374.3059
+2024,"Example Energy Corp",Investor-owned Company,Oil & NGL,770.694,Million bbl/yr,428.0303
+2024,"Example Energy Corp",Investor-owned Company,Natural Gas,807.544,Bcf/yr,439.1849
+1973,"Placeholder Resources",Investor-owned Company,Thermal Coal,36.563,Million tonnes/yr,15.9241
+1973,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,38.815,Million tonnes/yr,16.2682
+1974,"Placeholder Resources",Investor-owned Company,Thermal Coal,44.687,Million tonnes/yr,20.8170
+1974,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,33.080,Million tonnes/yr,18.9835
+1975,"Placeholder Resources",Investor-owned Company,Thermal Coal,32.816,Million tonnes/yr,17.9375
+1975,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,43.349,Million tonnes/yr,22.4304
+1976,"Placeholder Resources",Investor-owned Company,Thermal Coal,30.970,Million tonnes/yr,19.7192
+1976,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,46.127,Million tonnes/yr,22.2788
+1977,"Placeholder Resources",Investor-owned Company,Thermal Coal,34.364,Million tonnes/yr,22.0006
+1977,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,40.152,Million tonnes/yr,25.6373
+1978,"Placeholder Resources",Investor-owned Company,Thermal Coal,61.517,Million tonnes/yr,27.7619
+1978,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,61.663,Million tonnes/yr,27.1082
+1979,"Placeholder Resources",Investor-owned Company,Thermal Coal,48.883,Million tonnes/yr,23.5889
+1979,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,46.560,Million tonnes/yr,22.6448
+1980,"Placeholder Resources",Investor-owned Company,Thermal Coal,60.730,Million tonnes/yr,27.7572
+1980,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,44.823,Million tonnes/yr,26.3609
+1981,"Placeholder Resources",Investor-owned Company,Thermal Coal,60.074,Million tonnes/yr,28.8178
+1981,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,75.626,Million tonnes/yr,31.2601
+1982,"Placeholder Resources",Investor-owned Company,Thermal Coal,43.521,Million tonnes/yr,27.4427
+1982,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,68.185,Million tonnes/yr,28.9061
+1983,"Placeholder Resources",Investor-owned Company,Thermal Coal,71.499,Million tonnes/yr,33.7466
+1983,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,57.228,Million tonnes/yr,31.1738
+1984,"Placeholder Resources",Investor-owned Company,Thermal Coal,78.699,Million tonnes/yr,34.0741
+1984,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,76.727,Million tonnes/yr,34.1002
+1985,"Placeholder Resources",Investor-owned Company,Thermal Coal,60.777,Million tonnes/yr,31.1205
+1985,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,65.006,Million tonnes/yr,34.6174
+1986,"Placeholder Resources",Investor-owned Company,Thermal Coal,54.301,Million tonnes/yr,32.3460
+1986,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,74.922,Million tonnes/yr,37.5118
+1987,"Placeholder Resources",Investor-owned Company,Thermal Coal,63.481,Million tonnes/yr,33.4151
+1987,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,68.653,Million tonnes/yr,33.4818
+1988,"Placeholder Resources",Investor-owned Company,Thermal Coal,76.943,Million tonnes/yr,41.2743
+1988,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,65.331,Million tonnes/yr,36.4069
+1989,"Placeholder Resources",Investor-owned Company,Thermal Coal,73.581,Million tonnes/yr,38.8607
+1989,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,61.642,Million tonnes/yr,37.4693
+1990,"Placeholder Resources",Investor-owned Company,Thermal Coal,75.594,Million tonnes/yr,35.4498
+1990,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,73.949,Million tonnes/yr,44.3894
+1991,"Placeholder Resources",Investor-owned Company,Thermal Coal,100.672,Million tonnes/yr,42.1125
+1991,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,78.474,Million tonnes/yr,41.1765
+1992,"Placeholder Resources",Investor-owned Company,Thermal Coal,80.550,Million tonnes/yr,42.3492
+1992,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,89.985,Million tonnes/yr,44.1411
+1993,"Placeholder Resources",Investor-owned Company,Thermal Coal,81.172,Million tonnes/yr,38.9718
+1993,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,71.564,Million tonnes/yr,47.4763
+1994,"Placeholder Resources",Investor-owned Company,Thermal Coal,73.128,Million tonnes/yr,45.3359
+1994,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,75.506,Million tonnes/yr,46.4137
+1995,"Placeholder Resources",Investor-owned Company,Thermal Coal,114.413,Million tonnes/yr,47.2282
+1995,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,96.792,Million tonnes/yr,41.2462
+1996,"Placeholder Resources",Investor-owned Company,Thermal Coal,101.630,Million tonnes/yr,42.2008
+1996,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,68.576,Million tonnes/yr,42.0802
+1997,"Placeholder Resources",Investor-owned Company,Thermal Coal,98.416,Million tonnes/yr,50.1993
+1997,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,76.285,Million tonnes/yr,46.3394
+1998,"Placeholder Resources",Investor-owned Company,Thermal Coal,89.566,Million tonnes/yr,55.0273
+1998,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,102.561,Million tonnes/yr,45.7740
+1999,"Placeholder Resources",Investor-owned Company,Thermal Coal,138.623,Million tonnes/yr,55.5330
+1999,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,110.718,Million tonnes/yr,46.7201
+2000,"Placeholder Resources",Investor-owned Company,Thermal Coal,108.659,Million tonnes/yr,51.3766
+2000,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,139.584,Million tonnes/yr,56.5151
+2001,"Placeholder Resources",Investor-owned Company,Thermal Coal,103.182,Million tonnes/yr,50.5534
+2001,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,89.288,Million tonnes/yr,45.7547
+2002,"Placeholder Resources",Investor-owned Company,Thermal Coal,114.807,Million tonnes/yr,49.1332
+2002,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,105.086,Million tonnes/yr,46.1086
+2003,"Placeholder Resources",Investor-owned Company,Thermal Coal,92.742,Million tonnes/yr,58.2028
+2003,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,132.064,Million tonnes/yr,56.5322
+2004,"Placeholder Resources",Investor-owned Company,Thermal Coal,127.506,Million tonnes/yr,55.1056
+2004,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,110.940,Million tonnes/yr,54.6838
+2005,"Placeholder Resources",Investor-owned Company,Thermal Coal,99.081,Million tonnes/yr,57.3783
+2005,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,148.889,Million tonnes/yr,63.8115
+2006,"Placeholder Resources",Investor-owned Company,Thermal Coal,129.737,Million tonnes/yr,54.8292
+2006,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,139.209,Million tonnes/yr,62.2092
+2007,"Placeholder Resources",Investor-owned Company,Thermal Coal,117.466,Million tonnes/yr,59.0275
+2007,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,129.147,Million tonnes/yr,56.5656
+2008,"Placeholder Resources",Investor-owned Company,Thermal Coal,93.332,Million tonnes/yr,55.9309
+2008,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,114.342,Million tonnes/yr,69.0557
+2009,"Placeholder Resources",Investor-owned Company,Thermal Coal,120.995,Million tonnes/yr,57.0667
+2009,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,126.102,Million tonnes/yr,61.9688
+2010,"Placeholder Resources",Investor-owned Company,Thermal Coal,111.855,Million tonnes/yr,69.0135
+2010,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,98.009,Million tonnes/yr,59.4671
+2011,"Placeholder Resources",Investor-owned Company,Thermal Coal,130.274,Million tonnes/yr,62.9868
+2011,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,142.811,Million tonnes/yr,63.8133
+2012,"Placeholder Resources",Investor-owned Company,Thermal Coal,131.310,Million tonnes/yr,64.7528
+2012,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,121.115,Million tonnes/yr,63.9874
+2013,"Placeholder Resources",Investor-owned Company,Thermal Coal,130.233,Million tonnes/yr,70.9118
+2013,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,137.725,Million tonnes/yr,70.8035
+2014,"Placeholder Resources",Investor-owned Company,Thermal Coal,134.533,Million tonnes/yr,64.1950
+2014,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,157.350,Million tonnes/yr,65.8249
+2015,"Placeholder Resources",Investor-owned Company,Thermal Coal,164.641,Million tonnes/yr,77.3176
+2015,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,105.804,Million tonnes/yr,69.1901
+2016,"Placeholder Resources",Investor-owned Company,Thermal Coal,140.611,Million tonnes/yr,62.8636
+2016,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,115.345,Million tonnes/yr,64.5661
+2017,"Placeholder Resources",Investor-owned Company,Thermal Coal,116.882,Million tonnes/yr,64.3584
+2017,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,117.654,Million tonnes/yr,61.5749
+2018,"Placeholder Resources",Investor-owned Company,Thermal Coal,115.708,Million tonnes/yr,68.4823
+2018,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,161.464,Million tonnes/yr,80.4911
+2019,"Placeholder Resources",Investor-owned Company,Thermal Coal,152.455,Million tonnes/yr,69.1062
+2019,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,173.802,Million tonnes/yr,82.7707
+2020,"Placeholder Resources",Investor-owned Company,Thermal Coal,158.929,Million tonnes/yr,81.4870
+2020,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,180.949,Million tonnes/yr,82.2157
+2021,"Placeholder Resources",Investor-owned Company,Thermal Coal,184.672,Million tonnes/yr,86.4167
+2021,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,147.247,Million tonnes/yr,71.8648
+2022,"Placeholder Resources",Investor-owned Company,Thermal Coal,146.864,Million tonnes/yr,72.8143
+2022,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,149.348,Million tonnes/yr,74.3105
+2023,"Placeholder Resources",Investor-owned Company,Thermal Coal,131.792,Million tonnes/yr,70.2911
+2023,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,152.637,Million tonnes/yr,83.8894
+2024,"Placeholder Resources",Investor-owned Company,Thermal Coal,191.490,Million tonnes/yr,78.2959
+2024,"Placeholder Resources",Investor-owned Company,Metallurgical Coal,156.509,Million tonnes/yr,73.4756
+1974,"Mock Cement Group",Investor-owned Company,Cement,85.348,Million Tonnes CO2,41.4311
+1975,"Mock Cement Group",Investor-owned Company,Cement,120.526,Million Tonnes CO2,54.2780
+1976,"Mock Cement Group",Investor-owned Company,Cement,128.773,Million Tonnes CO2,58.4558
+1977,"Mock Cement Group",Investor-owned Company,Cement,105.091,Million Tonnes CO2,50.7926
+1978,"Mock Cement Group",Investor-owned Company,Cement,92.809,Million Tonnes CO2,51.6398
+1979,"Mock Cement Group",Investor-owned Company,Cement,158.830,Million Tonnes CO2,65.2420
+1980,"Mock Cement Group",Investor-owned Company,Cement,133.821,Million Tonnes CO2,66.5666
+1981,"Mock Cement Group",Investor-owned Company,Cement,125.574,Million Tonnes CO2,74.8097
+1982,"Mock Cement Group",Investor-owned Company,Cement,116.745,Million Tonnes CO2,75.8213
+1983,"Mock Cement Group",Investor-owned Company,Cement,142.396,Million Tonnes CO2,79.8218
+1984,"Mock Cement Group",Investor-owned Company,Cement,153.474,Million Tonnes CO2,77.3128
+1985,"Mock Cement Group",Investor-owned Company,Cement,158.195,Million Tonnes CO2,83.6865
+1986,"Mock Cement Group",Investor-owned Company,Cement,120.417,Million Tonnes CO2,71.0945
+1987,"Mock Cement Group",Investor-owned Company,Cement,138.354,Million Tonnes CO2,73.7775
+1988,"Mock Cement Group",Investor-owned Company,Cement,203.186,Million Tonnes CO2,99.9478
+1989,"Mock Cement Group",Investor-owned Company,Cement,213.364,Million Tonnes CO2,103.7555
+1990,"Mock Cement Group",Investor-owned Company,Cement,192.919,Million Tonnes CO2,84.1742
+1991,"Mock Cement Group",Investor-owned Company,Cement,195.421,Million Tonnes CO2,83.3687
+1992,"Mock Cement Group",Investor-owned Company,Cement,176.097,Million Tonnes CO2,105.6225
+1993,"Mock Cement Group",Investor-owned Company,Cement,277.651,Million Tonnes CO2,114.6219
+1994,"Mock Cement Group",Investor-owned Company,Cement,221.698,Million Tonnes CO2,108.9952
+1995,"Mock Cement Group",Investor-owned Company,Cement,191.089,Million Tonnes CO2,106.9652
+1996,"Mock Cement Group",Investor-owned Company,Cement,261.037,Million Tonnes CO2,106.2657
+1997,"Mock Cement Group",Investor-owned Company,Cement,184.259,Million Tonnes CO2,107.4498
+1998,"Mock Cement Group",Investor-owned Company,Cement,216.179,Million Tonnes CO2,131.7518
+1999,"Mock Cement Group",Investor-owned Company,Cement,194.329,Million Tonnes CO2,129.2380
+2000,"Mock Cement Group",Investor-owned Company,Cement,243.097,Million Tonnes CO2,136.2809
+2001,"Mock Cement Group",Investor-owned Company,Cement,201.622,Million Tonnes CO2,130.7204
+2002,"Mock Cement Group",Investor-owned Company,Cement,210.390,Million Tonnes CO2,138.4366
+2003,"Mock Cement Group",Investor-owned Company,Cement,293.668,Million Tonnes CO2,142.6744
+2004,"Mock Cement Group",Investor-owned Company,Cement,281.775,Million Tonnes CO2,146.8000
+2005,"Mock Cement Group",Investor-owned Company,Cement,240.035,Million Tonnes CO2,149.2816
+2006,"Mock Cement Group",Investor-owned Company,Cement,262.944,Million Tonnes CO2,150.7924
+2007,"Mock Cement Group",Investor-owned Company,Cement,234.461,Million Tonnes CO2,142.6351
+2008,"Mock Cement Group",Investor-owned Company,Cement,315.542,Million Tonnes CO2,131.1796
+2009,"Mock Cement Group",Investor-owned Company,Cement,234.207,Million Tonnes CO2,135.0387
+2010,"Mock Cement Group",Investor-owned Company,Cement,389.530,Million Tonnes CO2,166.3251
+2011,"Mock Cement Group",Investor-owned Company,Cement,377.007,Million Tonnes CO2,166.3947
+2012,"Mock Cement Group",Investor-owned Company,Cement,294.533,Million Tonnes CO2,168.0380
+2013,"Mock Cement Group",Investor-owned Company,Cement,301.420,Million Tonnes CO2,177.0521
+2014,"Mock Cement Group",Investor-owned Company,Cement,361.096,Million Tonnes CO2,189.6970
+2015,"Mock Cement Group",Investor-owned Company,Cement,259.472,Million Tonnes CO2,149.4386
+2016,"Mock Cement Group",Investor-owned Company,Cement,469.055,Million Tonnes CO2,191.3431
+2017,"Mock Cement Group",Investor-owned Company,Cement,317.241,Million Tonnes CO2,166.8758
+2018,"Mock Cement Group",Investor-owned Company,Cement,382.075,Million Tonnes CO2,153.2330
+2019,"Mock Cement Group",Investor-owned Company,Cement,510.564,Million Tonnes CO2,205.8123
+2020,"Mock Cement Group",Investor-owned Company,Cement,409.407,Million Tonnes CO2,178.6077
+2021,"Mock Cement Group",Investor-owned Company,Cement,323.223,Million Tonnes CO2,180.5418
+2022,"Mock Cement Group",Investor-owned Company,Cement,335.590,Million Tonnes CO2,178.4098
+2023,"Mock Cement Group",Investor-owned Company,Cement,368.320,Million Tonnes CO2,170.7992
+2024,"Mock Cement Group",Investor-owned Company,Cement,350.984,Million Tonnes CO2,175.3102
+1973,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,171.721,Bcf/yr,82.5145
+1974,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,172.859,Bcf/yr,82.9128
+1975,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,238.970,Bcf/yr,109.0735
+1976,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,214.255,Bcf/yr,93.1076
+1977,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,210.363,Bcf/yr,95.2958
+1978,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,275.408,Bcf/yr,110.3746
+1979,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,183.881,Bcf/yr,114.1029
+1980,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,253.277,Bcf/yr,145.6098
+1981,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,217.620,Bcf/yr,132.7923
+1982,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,248.381,Bcf/yr,157.0396
+1983,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,212.997,Bcf/yr,122.9839
+1984,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,304.346,Bcf/yr,143.9088
+1985,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,330.541,Bcf/yr,132.3612
+1986,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,358.885,Bcf/yr,151.3042
+1987,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,276.299,Bcf/yr,170.5639
+1988,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,263.009,Bcf/yr,161.9624
+1989,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,379.734,Bcf/yr,155.6594
+1990,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,398.078,Bcf/yr,165.2207
+1991,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,405.217,Bcf/yr,189.2992
+1992,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,408.680,Bcf/yr,172.1539
+1993,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,385.321,Bcf/yr,218.9040
+1994,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,405.326,Bcf/yr,180.4020
+1995,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,543.133,Bcf/yr,220.2467
+1996,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,293.814,Bcf/yr,191.5763
+1997,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,435.106,Bcf/yr,240.6481
+1998,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,431.942,Bcf/yr,246.3641
+1999,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,398.000,Bcf/yr,209.7669
+2000,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,505.234,Bcf/yr,220.0418
+2001,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,431.068,Bcf/yr,251.4666
+2002,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,565.541,Bcf/yr,253.2376
+2003,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,454.513,Bcf/yr,227.2811
+2004,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,475.603,Bcf/yr,287.5901
+2005,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,750.063,Bcf/yr,308.2297
+2006,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,726.507,Bcf/yr,308.0830
+2007,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,586.251,Bcf/yr,286.0078
+2008,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,556.720,Bcf/yr,280.2145
+2009,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,610.845,Bcf/yr,291.2135
+2010,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,517.307,Bcf/yr,270.7572
+2011,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,500.184,Bcf/yr,278.6914
+2012,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,816.808,Bcf/yr,331.6160
+2013,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,537.308,Bcf/yr,319.5401
+2014,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,665.819,Bcf/yr,284.4246
+2015,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,529.266,Bcf/yr,346.9537
+2016,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,731.304,Bcf/yr,324.7953
+2017,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,637.939,Bcf/yr,321.9154
+2018,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,744.550,Bcf/yr,348.4952
+2019,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,813.236,Bcf/yr,330.4969
+2020,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,500.284,Bcf/yr,323.3585
+2021,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,609.172,Bcf/yr,319.3957
+2022,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,683.949,Bcf/yr,341.4504
+2023,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,890.908,Bcf/yr,364.4729
+2024,"Fictional Gas Ltd",Investor-owned Company,Natural Gas,1015.643,Bcf/yr,421.6288
+1952,"Demo State Oil",State-owned Entity,Oil & NGL,157.368,Million bbl/yr,84.6380
+1952,"Demo State Oil",State-owned Entity,Natural Gas,144.020,Bcf/yr,73.6383
+1953,"Demo State Oil",State-owned Entity,Oil & NGL,192.627,Million bbl/yr,79.9211
+1953,"Demo State Oil",State-owned Entity,Natural Gas,153.384,Bcf/yr,86.7774
+1954,"Demo State Oil",State-owned Entity,Oil & NGL,141.828,Million bbl/yr,86.3172
+1954,"Demo State Oil",State-owned Entity,Natural Gas,174.023,Bcf/yr,71.5751
+1955,"Demo State Oil",State-owned Entity,Oil & NGL,184.590,Million bbl/yr,87.8125
+1955,"Demo State Oil",State-owned Entity,Natural Gas,171.459,Bcf/yr,82.5252
+1956,"Demo State Oil",State-owned Entity,Oil & NGL,171.591,Million bbl/yr,88.8671
+1956,"Demo State Oil",State-owned Entity,Natural Gas,181.681,Bcf/yr,95.6412
+1957,"Demo State Oil",State-owned Entity,Oil & NGL,188.544,Million bbl/yr,82.4022
+1957,"Demo State Oil",State-owned Entity,Natural Gas,153.201,Bcf/yr,99.9065
+1958,"Demo State Oil",State-owned Entity,Oil & NGL,262.120,Million bbl/yr,110.6390
+1958,"Demo State Oil",State-owned Entity,Natural Gas,208.013,Bcf/yr,107.8598
+1959,"Demo State Oil",State-owned Entity,Oil & NGL,198.370,Million bbl/yr,93.9034
+1959,"Demo State Oil",State-owned Entity,Natural Gas,170.458,Bcf/yr,89.2556
+1960,"Demo State Oil",State-owned Entity,Oil & NGL,203.374,Million bbl/yr,105.9939
+1960,"Demo State Oil",State-owned Entity,Natural Gas,184.989,Bcf/yr,98.1255
+1961,"Demo State Oil",State-owned Entity,Oil & NGL,213.241,Million bbl/yr,108.7666
+1961,"Demo State Oil",State-owned Entity,Natural Gas,264.228,Bcf/yr,109.9687
+1962,"Demo State Oil",State-owned Entity,Oil & NGL,217.917,Million bbl/yr,114.0113
+1962,"Demo State Oil",State-owned Entity,Natural Gas,184.804,Bcf/yr,122.5387
+1963,"Demo State Oil",State-owned Entity,Oil & NGL,221.228,Million bbl/yr,101.8804
+1963,"Demo State Oil",State-owned Entity,Natural Gas,221.465,Bcf/yr,105.0504
+1964,"Demo State Oil",State-owned Entity,Oil & NGL,230.339,Million bbl/yr,120.0427
+1964,"Demo State Oil",State-owned Entity,Natural Gas,219.892,Bcf/yr,122.7159
+1965,"Demo State Oil",State-owned Entity,Oil & NGL,196.744,Million bbl/yr,125.8181
+1965,"Demo State Oil",State-owned Entity,Natural Gas,198.723,Bcf/yr,109.6352
+1966,"Demo State Oil",State-owned Entity,Oil & NGL,297.380,Million bbl/yr,122.1510
+1966,"Demo State Oil",State-owned Entity,Natural Gas,234.693,Bcf/yr,107.4332
+1967,"Demo State Oil",State-owned Entity,Oil & NGL,221.780,Million bbl/yr,125.0825
+1967,"Demo State Oil",State-owned Entity,Natural Gas,299.296,Bcf/yr,142.7415
+1968,"Demo State Oil",State-owned Entity,Oil & NGL,354.143,Million bbl/yr,149.5657
+1968,"Demo State Oil",State-owned Entity,Natural Gas,237.624,Bcf/yr,113.2942
+1969,"Demo State Oil",State-owned Entity,Oil & NGL,317.872,Million bbl/yr,132.2937
+1969,"Demo State Oil",State-owned Entity,Natural Gas,204.953,Bcf/yr,116.9967
+1970,"Demo State Oil",State-owned Entity,Oil & NGL,284.181,Million bbl/yr,120.9057
+1970,"Demo State Oil",State-owned Entity,Natural Gas,219.592,Bcf/yr,127.1395
+1971,"Demo State Oil",State-owned Entity,Oil & NGL,303.125,Million bbl/yr,152.5822
+1971,"Demo State Oil",State-owned Entity,Natural Gas,199.474,Bcf/yr,132.3240
+1972,"Demo State Oil",State-owned Entity,Oil & NGL,264.892,Million bbl/yr,142.7387
+1972,"Demo State Oil",State-owned Entity,Natural Gas,305.404,Bcf/yr,139.4026
+1973,"Demo State Oil",State-owned Entity,Oil & NGL,253.659,Million bbl/yr,143.7745
+1973,"Demo State Oil",State-owned Entity,Natural Gas,353.708,Bcf/yr,170.5894
+1974,"Demo State Oil",State-owned Entity,Oil & NGL,360.468,Million bbl/yr,169.1950
+1974,"Demo State Oil",State-owned Entity,Natural Gas,297.729,Bcf/yr,150.9208
+1975,"Demo State Oil",State-owned Entity,Oil & NGL,312.308,Million bbl/yr,137.6328
+1975,"Demo State Oil",State-owned Entity,Natural Gas,349.381,Bcf/yr,140.1630
+1976,"Demo State Oil",State-owned Entity,Oil & NGL,355.060,Million bbl/yr,183.1539
+1976,"Demo State Oil",State-owned Entity,Natural Gas,269.712,Bcf/yr,160.0944
+1977,"Demo State Oil",State-owned Entity,Oil & NGL,265.958,Million bbl/yr,153.8431
+1977,"Demo State Oil",State-owned Entity,Natural Gas,299.577,Bcf/yr,165.7472
+1978,"Demo State Oil",State-owned Entity,Oil & NGL,397.222,Million bbl/yr,187.5332
+1978,"Demo State Oil",State-owned Entity,Natural Gas,372.383,Bcf/yr,174.1811
+1979,"Demo State Oil",State-owned Entity,Oil & NGL,439.448,Million bbl/yr,192.9302
+1979,"Demo State Oil",State-owned Entity,Natural Gas,335.740,Bcf/yr,164.7529
+1980,"Demo State Oil",State-owned Entity,Oil & NGL,381.344,Million bbl/yr,195.5203
+1980,"Demo State Oil",State-owned Entity,Natural Gas,346.739,Bcf/yr,200.6747
+1981,"Demo State Oil",State-owned Entity,Oil & NGL,353.649,Million bbl/yr,178.3246
+1981,"Demo State Oil",State-owned Entity,Natural Gas,473.473,Bcf/yr,191.4669
+1982,"Demo State Oil",State-owned Entity,Oil & NGL,389.137,Million bbl/yr,166.1960
+1982,"Demo State Oil",State-owned Entity,Natural Gas,336.435,Bcf/yr,157.8283
+1983,"Demo State Oil",State-owned Entity,Oil & NGL,280.803,Million bbl/yr,166.9095
+1983,"Demo State Oil",State-owned Entity,Natural Gas,417.079,Bcf/yr,183.4209
+1984,"Demo State Oil",State-owned Entity,Oil & NGL,383.608,Million bbl/yr,211.2098
+1984,"Demo State Oil",State-owned Entity,Natural Gas,445.806,Bcf/yr,192.3511
+1985,"Demo State Oil",State-owned Entity,Oil & NGL,344.926,Million bbl/yr,211.1663
+1985,"Demo State Oil",State-owned Entity,Natural Gas,464.398,Bcf/yr,194.2573
+1986,"Demo State Oil",State-owned Entity,Oil & NGL,484.090,Million bbl/yr,208.1699
+1986,"Demo State Oil",State-owned Entity,Natural Gas,419.721,Bcf/yr,224.7039
+1987,"Demo State Oil",State-owned Entity,Oil & NGL,373.176,Million bbl/yr,188.6590
+1987,"Demo State Oil",State-owned Entity,Natural Gas,320.127,Bcf/yr,178.8656
+1988,"Demo State Oil",State-owned Entity,Oil & NGL,334.325,Million bbl/yr,179.3181
+1988,"Demo State Oil",State-owned Entity,Natural Gas,340.690,Bcf/yr,211.2618
+1989,"Demo State Oil",State-owned Entity,Oil & NGL,440.543,Million bbl/yr,218.4265
+1989,"Demo State Oil",State-owned Entity,Natural Gas,391.028,Bcf/yr,195.9200
+1990,"Demo State Oil",State-owned Entity,Oil & NGL,373.663,Million bbl/yr,196.1608
+1990,"Demo State Oil",State-owned Entity,Natural Gas,301.738,Bcf/yr,191.2294
+1991,"Demo State Oil",State-owned Entity,Oil & NGL,490.760,Million bbl/yr,213.6016
+1991,"Demo State Oil",State-owned Entity,Natural Gas,474.413,Bcf/yr,243.9240
+1992,"Demo State Oil",State-owned Entity,Oil & NGL,324.894,Million bbl/yr,198.2166
+1992,"Demo State Oil",State-owned Entity,Natural Gas,556.333,Bcf/yr,247.8159
+1993,"Demo State Oil",State-owned Entity,Oil & NGL,302.875,Million bbl/yr,199.9363
+1993,"Demo State Oil",State-owned Entity,Natural Gas,495.471,Bcf/yr,230.4058
+1994,"Demo State Oil",State-owned Entity,Oil & NGL,507.425,Million bbl/yr,249.1709
+1994,"Demo State Oil",State-owned Entity,Natural Gas,484.295,Bcf/yr,228.1393
+1995,"Demo State Oil",State-owned Entity,Oil & NGL,509.956,Million bbl/yr,229.3130
+1995,"Demo State Oil",State-owned Entity,Natural Gas,542.257,Bcf/yr,248.5349
+1996,"Demo State Oil",State-owned Entity,Oil & NGL,388.343,Million bbl/yr,226.7431
+1996,"Demo State Oil",State-owned Entity,Natural Gas,342.696,Bcf/yr,209.8745
+1997,"Demo State Oil",State-owned Entity,Oil & NGL,490.920,Million bbl/yr,207.5706
+1997,"Demo State Oil",State-owned Entity,Natural Gas,599.753,Bcf/yr,244.2483
+1998,"Demo State Oil",State-owned Entity,Oil & NGL,389.169,Million bbl/yr,241.4973
+1998,"Demo State Oil",State-owned Entity,Natural Gas,562.978,Bcf/yr,244.1158
+1999,"Demo State Oil",State-owned Entity,Oil & NGL,440.047,Million bbl/yr,274.5853
+1999,"Demo State Oil",State-owned Entity,Natural Gas,556.528,Bcf/yr,237.9936
+2000,"Demo State Oil",State-owned Entity,Oil & NGL,644.904,Million bbl/yr,258.1113
+2000,"Demo State Oil",State-owned Entity,Natural Gas,536.854,Bcf/yr,234.0948
+2001,"Demo State Oil",State-owned Entity,Oil & NGL,534.526,Million bbl/yr,216.0363
+2001,"Demo State Oil",State-owned Entity,Natural Gas,404.619,Bcf/yr,258.7092
+2002,"Demo State Oil",State-owned Entity,Oil & NGL,577.188,Million bbl/yr,254.4521
+2002,"Demo State Oil",State-owned Entity,Natural Gas,468.769,Bcf/yr,214.3947
+2003,"Demo State Oil",State-owned Entity,Oil & NGL,541.893,Million bbl/yr,230.1388
+2003,"Demo State Oil",State-owned Entity,Natural Gas,452.990,Bcf/yr,231.0351
+2004,"Demo State Oil",State-owned Entity,Oil & NGL,537.708,Million bbl/yr,260.6139
+2004,"Demo State Oil",State-owned Entity,Natural Gas,556.192,Bcf/yr,258.1692
+2005,"Demo State Oil",State-owned Entity,Oil & NGL,579.022,Million bbl/yr,259.5944
+2005,"Demo State Oil",State-owned Entity,Natural Gas,702.604,Bcf/yr,281.8248
+2006,"Demo State Oil",State-owned Entity,Oil & NGL,549.677,Million bbl/yr,249.2842
+2006,"Demo State Oil",State-owned Entity,Natural Gas,600.345,Bcf/yr,251.2475
+2007,"Demo State Oil",State-owned Entity,Oil & NGL,601.233,Million bbl/yr,262.7158
+2007,"Demo State Oil",State-owned Entity,Natural Gas,410.714,Bcf/yr,254.2902
+2008,"Demo State Oil",State-owned Entity,Oil & NGL,501.121,Million bbl/yr,258.4182
+2008,"Demo State Oil",State-owned Entity,Natural Gas,465.411,Bcf/yr,249.1895
+2009,"Demo State Oil",State-owned Entity,Oil & NGL,669.582,Million bbl/yr,289.1242
+2009,"Demo State Oil",State-owned Entity,Natural Gas,517.096,Bcf/yr,267.0101
+2010,"Demo State Oil",State-owned Entity,Oil & NGL,572.109,Million bbl/yr,287.2757
+2010,"Demo State Oil",State-owned Entity,Natural Gas,650.097,Bcf/yr,268.5427
+2011,"Demo State Oil",State-owned Entity,Oil & NGL,605.668,Million bbl/yr,316.6031
+2011,"Demo State Oil",State-owned Entity,Natural Gas,673.368,Bcf/yr,305.9043
+2012,"Demo State Oil",State-owned Entity,Oil & NGL,517.199,Million bbl/yr,266.9903
+2012,"Demo State Oil",State-owned Entity,Natural Gas,559.634,Bcf/yr,263.8373
+2013,"Demo State Oil",State-owned Entity,Oil & NGL,499.606,Million bbl/yr,328.9037
+2013,"Demo State Oil",State-owned Entity,Natural Gas,508.360,Bcf/yr,322.1827
+2014,"Demo State Oil",State-owned Entity,Oil & NGL,709.686,Million bbl/yr,297.8890
+2014,"Demo State Oil",State-owned Entity,Natural Gas,649.387,Bcf/yr,328.1926
+2015,"Demo State Oil",State-owned Entity,Oil & NGL,725.505,Million bbl/yr,322.5126
+2015,"Demo State Oil",State-owned Entity,Natural Gas,697.467,Bcf/yr,308.0702
+2016,"Demo State Oil",State-owned Entity,Oil & NGL,578.075,Million bbl/yr,295.1352
+2016,"Demo State Oil",State-owned Entity,Natural Gas,667.454,Bcf/yr,342.0874
+2017,"Demo State Oil",State-owned Entity,Oil & NGL,495.051,Million bbl/yr,319.9495
+2017,"Demo State Oil",State-owned Entity,Natural Gas,825.813,Bcf/yr,343.8407
+2018,"Demo State Oil",State-owned Entity,Oil & NGL,697.077,Million bbl/yr,327.3678
+2018,"Demo State Oil",State-owned Entity,Natural Gas,611.523,Bcf/yr,269.8751
+2019,"Demo State Oil",State-owned Entity,Oil & NGL,488.457,Million bbl/yr,296.9841
+2019,"Demo State Oil",State-owned Entity,Natural Gas,759.000,Bcf/yr,329.0856
+2020,"Demo State Oil",State-owned Entity,Oil & NGL,630.537,Million bbl/yr,348.6192
+2020,"Demo State Oil",State-owned Entity,Natural Gas,554.706,Bcf/yr,269.8972
+2021,"Demo State Oil",State-owned Entity,Oil & NGL,546.108,Million bbl/yr,296.8562
+2021,"Demo State Oil",State-owned Entity,Natural Gas,610.029,Bcf/yr,303.8872
+2022,"Demo State Oil",State-owned Entity,Oil & NGL,510.663,Million bbl/yr,284.7140
+2022,"Demo State Oil",State-owned Entity,Natural Gas,672.609,Bcf/yr,292.0602
+2023,"Demo State Oil",State-owned Entity,Oil & NGL,587.179,Million bbl/yr,370.9498
+2023,"Demo State Oil",State-owned Entity,Natural Gas,596.499,Bcf/yr,283.7814
+2024,"Demo State Oil",State-owned Entity,Oil & NGL,675.761,Million bbl/yr,336.5627
+2024,"Demo State Oil",State-owned Entity,Natural Gas,772.648,Bcf/yr,367.1001
+1963,"Test National Petroleum",State-owned Entity,Oil & NGL,210.402,Million bbl/yr,109.5338
+1964,"Test National Petroleum",State-owned Entity,Oil & NGL,174.126,Million bbl/yr,111.7289
+1965,"Test National Petroleum",State-owned Entity,Oil & NGL,235.761,Million bbl/yr,105.2502
+1966,"Test National Petroleum",State-owned Entity,Oil & NGL,295.611,Million bbl/yr,118.3105
+1967,"Test National Petroleum",State-owned Entity,Oil & NGL,290.927,Million bbl/yr,144.9389
+1968,"Test National Petroleum",State-owned Entity,Oil & NGL,242.929,Million bbl/yr,151.3409
+1969,"Test National Petroleum",State-owned Entity,Oil & NGL,291.174,Million bbl/yr,141.5573
+1970,"Test National Petroleum",State-owned Entity,Oil & NGL,245.703,Million bbl/yr,163.3096
+1971,"Test National Petroleum",State-owned Entity,Oil & NGL,322.780,Million bbl/yr,169.2311
+1972,"Test National Petroleum",State-owned Entity,Oil & NGL,346.418,Million bbl/yr,169.6615
+1973,"Test National Petroleum",State-owned Entity,Oil & NGL,287.639,Million bbl/yr,172.2789
+1974,"Test National Petroleum",State-owned Entity,Oil & NGL,317.448,Million bbl/yr,199.7728
+1975,"Test National Petroleum",State-owned Entity,Oil & NGL,358.649,Million bbl/yr,157.7012
+1976,"Test National Petroleum",State-owned Entity,Oil & NGL,387.012,Million bbl/yr,194.4224
+1977,"Test National Petroleum",State-owned Entity,Oil & NGL,439.781,Million bbl/yr,178.2060
+1978,"Test National Petroleum",State-owned Entity,Oil & NGL,342.605,Million bbl/yr,198.6567
+1979,"Test National Petroleum",State-owned Entity,Oil & NGL,440.404,Million bbl/yr,192.8430
+1980,"Test National Petroleum",State-owned Entity,Oil & NGL,476.864,Million bbl/yr,226.1520
+1981,"Test National Petroleum",State-owned Entity,Oil & NGL,408.618,Million bbl/yr,210.7029
+1982,"Test National Petroleum",State-owned Entity,Oil & NGL,333.032,Million bbl/yr,204.7364
+1983,"Test National Petroleum",State-owned Entity,Oil & NGL,516.552,Million bbl/yr,218.6019
+1984,"Test National Petroleum",State-owned Entity,Oil & NGL,418.439,Million bbl/yr,245.1071
+1985,"Test National Petroleum",State-owned Entity,Oil & NGL,458.486,Million bbl/yr,254.0750
+1986,"Test National Petroleum",State-owned Entity,Oil & NGL,440.044,Million bbl/yr,287.8144
+1987,"Test National Petroleum",State-owned Entity,Oil & NGL,579.969,Million bbl/yr,259.9194
+1988,"Test National Petroleum",State-owned Entity,Oil & NGL,410.381,Million bbl/yr,243.7931
+1989,"Test National Petroleum",State-owned Entity,Oil & NGL,662.400,Million bbl/yr,268.8358
+1990,"Test National Petroleum",State-owned Entity,Oil & NGL,493.890,Million bbl/yr,278.7983
+1991,"Test National Petroleum",State-owned Entity,Oil & NGL,623.338,Million bbl/yr,276.5427
+1992,"Test National Petroleum",State-owned Entity,Oil & NGL,652.640,Million bbl/yr,288.2738
+1993,"Test National Petroleum",State-owned Entity,Oil & NGL,585.990,Million bbl/yr,333.3652
+1994,"Test National Petroleum",State-owned Entity,Oil & NGL,600.074,Million bbl/yr,272.6265
+1995,"Test National Petroleum",State-owned Entity,Oil & NGL,701.639,Million bbl/yr,332.8281
+1996,"Test National Petroleum",State-owned Entity,Oil & NGL,515.993,Million bbl/yr,330.2226
+1997,"Test National Petroleum",State-owned Entity,Oil & NGL,691.576,Million bbl/yr,339.2886
+1998,"Test National Petroleum",State-owned Entity,Oil & NGL,876.006,Million bbl/yr,367.4637
+1999,"Test National Petroleum",State-owned Entity,Oil & NGL,571.768,Million bbl/yr,324.6928
+2000,"Test National Petroleum",State-owned Entity,Oil & NGL,636.714,Million bbl/yr,326.8127
+2001,"Test National Petroleum",State-owned Entity,Oil & NGL,466.129,Million bbl/yr,299.8546
+2002,"Test National Petroleum",State-owned Entity,Oil & NGL,549.823,Million bbl/yr,337.0655
+2003,"Test National Petroleum",State-owned Entity,Oil & NGL,652.568,Million bbl/yr,370.5038
+2004,"Test National Petroleum",State-owned Entity,Oil & NGL,745.050,Million bbl/yr,334.4799
+2005,"Test National Petroleum",State-owned Entity,Oil & NGL,722.096,Million bbl/yr,335.9351
+2006,"Test National Petroleum",State-owned Entity,Oil & NGL,754.787,Million bbl/yr,410.8969
+2007,"Test National Petroleum",State-owned Entity,Oil & NGL,794.742,Million bbl/yr,431.2729
+2008,"Test National Petroleum",State-owned Entity,Oil & NGL,676.423,Million bbl/yr,412.9119
+2009,"Test National Petroleum",State-owned Entity,Oil & NGL,789.111,Million bbl/yr,347.5963
+2010,"Test National Petroleum",State-owned Entity,Oil & NGL,823.151,Million bbl/yr,386.7621
+2011,"Test National Petroleum",State-owned Entity,Oil & NGL,781.325,Million bbl/yr,424.6543
+2012,"Test National Petroleum",State-owned Entity,Oil & NGL,601.430,Million bbl/yr,363.1115
+2013,"Test National Petroleum",State-owned Entity,Oil & NGL,846.792,Million bbl/yr,369.8473
+2014,"Test National Petroleum",State-owned Entity,Oil & NGL,904.598,Million bbl/yr,388.4574
+2015,"Test National Petroleum",State-owned Entity,Oil & NGL,910.432,Million bbl/yr,475.0243
+2016,"Test National Petroleum",State-owned Entity,Oil & NGL,685.211,Million bbl/yr,424.2325
+2017,"Test National Petroleum",State-owned Entity,Oil & NGL,1060.020,Million bbl/yr,494.9935
+2018,"Test National Petroleum",State-owned Entity,Oil & NGL,1057.607,Million bbl/yr,473.6485
+2019,"Test National Petroleum",State-owned Entity,Oil & NGL,1082.574,Million bbl/yr,513.7506
+2020,"Test National Petroleum",State-owned Entity,Oil & NGL,965.863,Million bbl/yr,452.0004
+2021,"Test National Petroleum",State-owned Entity,Oil & NGL,937.556,Million bbl/yr,413.4031
+2022,"Test National Petroleum",State-owned Entity,Oil & NGL,864.475,Million bbl/yr,509.9778
+2023,"Test National Petroleum",State-owned Entity,Oil & NGL,1140.108,Million bbl/yr,525.4001
+2024,"Test National Petroleum",State-owned Entity,Oil & NGL,1282.443,Million bbl/yr,539.6292
+1973,"Sample Coal Authority",State-owned Entity,Thermal Coal,75.630,Million tonnes/yr,49.4519
+1973,"Sample Coal Authority",State-owned Entity,Lignite Coal,93.779,Million tonnes/yr,53.4908
+1974,"Sample Coal Authority",State-owned Entity,Thermal Coal,112.649,Million tonnes/yr,54.1850
+1974,"Sample Coal Authority",State-owned Entity,Lignite Coal,95.486,Million tonnes/yr,62.6640
+1975,"Sample Coal Authority",State-owned Entity,Thermal Coal,140.540,Million tonnes/yr,63.2407
+1975,"Sample Coal Authority",State-owned Entity,Lignite Coal,122.092,Million tonnes/yr,65.1677
+1976,"Sample Coal Authority",State-owned Entity,Thermal Coal,134.766,Million tonnes/yr,55.0559
+1976,"Sample Coal Authority",State-owned Entity,Lignite Coal,109.596,Million tonnes/yr,55.4034
+1977,"Sample Coal Authority",State-owned Entity,Thermal Coal,146.803,Million tonnes/yr,59.7097
+1977,"Sample Coal Authority",State-owned Entity,Lignite Coal,110.946,Million tonnes/yr,64.9892
+1978,"Sample Coal Authority",State-owned Entity,Thermal Coal,123.770,Million tonnes/yr,67.7415
+1978,"Sample Coal Authority",State-owned Entity,Lignite Coal,145.346,Million tonnes/yr,59.5955
+1979,"Sample Coal Authority",State-owned Entity,Thermal Coal,168.449,Million tonnes/yr,68.5028
+1979,"Sample Coal Authority",State-owned Entity,Lignite Coal,139.147,Million tonnes/yr,82.1764
+1980,"Sample Coal Authority",State-owned Entity,Thermal Coal,181.942,Million tonnes/yr,82.8727
+1980,"Sample Coal Authority",State-owned Entity,Lignite Coal,133.832,Million tonnes/yr,65.7654
+1981,"Sample Coal Authority",State-owned Entity,Thermal Coal,186.609,Million tonnes/yr,87.5912
+1981,"Sample Coal Authority",State-owned Entity,Lignite Coal,155.035,Million tonnes/yr,79.5008
+1982,"Sample Coal Authority",State-owned Entity,Thermal Coal,231.412,Million tonnes/yr,93.5862
+1982,"Sample Coal Authority",State-owned Entity,Lignite Coal,116.507,Million tonnes/yr,70.6212
+1983,"Sample Coal Authority",State-owned Entity,Thermal Coal,165.467,Million tonnes/yr,81.5422
+1983,"Sample Coal Authority",State-owned Entity,Lignite Coal,171.735,Million tonnes/yr,85.7228
+1984,"Sample Coal Authority",State-owned Entity,Thermal Coal,138.457,Million tonnes/yr,84.4693
+1984,"Sample Coal Authority",State-owned Entity,Lignite Coal,197.723,Million tonnes/yr,96.1989
+1985,"Sample Coal Authority",State-owned Entity,Thermal Coal,213.604,Million tonnes/yr,99.9953
+1985,"Sample Coal Authority",State-owned Entity,Lignite Coal,168.081,Million tonnes/yr,91.9795
+1986,"Sample Coal Authority",State-owned Entity,Thermal Coal,169.217,Million tonnes/yr,101.5140
+1986,"Sample Coal Authority",State-owned Entity,Lignite Coal,210.032,Million tonnes/yr,88.9850
+1987,"Sample Coal Authority",State-owned Entity,Thermal Coal,246.584,Million tonnes/yr,100.8688
+1987,"Sample Coal Authority",State-owned Entity,Lignite Coal,246.481,Million tonnes/yr,112.1169
+1988,"Sample Coal Authority",State-owned Entity,Thermal Coal,249.436,Million tonnes/yr,110.1521
+1988,"Sample Coal Authority",State-owned Entity,Lignite Coal,167.666,Million tonnes/yr,94.7764
+1989,"Sample Coal Authority",State-owned Entity,Thermal Coal,233.675,Million tonnes/yr,98.9779
+1989,"Sample Coal Authority",State-owned Entity,Lignite Coal,243.993,Million tonnes/yr,103.3440
+1990,"Sample Coal Authority",State-owned Entity,Thermal Coal,281.487,Million tonnes/yr,115.7004
+1990,"Sample Coal Authority",State-owned Entity,Lignite Coal,180.531,Million tonnes/yr,109.1219
+1991,"Sample Coal Authority",State-owned Entity,Thermal Coal,228.486,Million tonnes/yr,119.1869
+1991,"Sample Coal Authority",State-owned Entity,Lignite Coal,214.772,Million tonnes/yr,107.0623
+1992,"Sample Coal Authority",State-owned Entity,Thermal Coal,183.857,Million tonnes/yr,100.1785
+1992,"Sample Coal Authority",State-owned Entity,Lignite Coal,232.337,Million tonnes/yr,119.6332
+1993,"Sample Coal Authority",State-owned Entity,Thermal Coal,227.859,Million tonnes/yr,126.8464
+1993,"Sample Coal Authority",State-owned Entity,Lignite Coal,174.007,Million tonnes/yr,111.3826
+1994,"Sample Coal Authority",State-owned Entity,Thermal Coal,231.249,Million tonnes/yr,116.8919
+1994,"Sample Coal Authority",State-owned Entity,Lignite Coal,212.351,Million tonnes/yr,117.4370
+1995,"Sample Coal Authority",State-owned Entity,Thermal Coal,270.315,Million tonnes/yr,124.5066
+1995,"Sample Coal Authority",State-owned Entity,Lignite Coal,254.847,Million tonnes/yr,141.6334
+1996,"Sample Coal Authority",State-owned Entity,Thermal Coal,247.272,Million tonnes/yr,112.0755
+1996,"Sample Coal Authority",State-owned Entity,Lignite Coal,227.552,Million tonnes/yr,134.7295
+1997,"Sample Coal Authority",State-owned Entity,Thermal Coal,305.065,Million tonnes/yr,129.6435
+1997,"Sample Coal Authority",State-owned Entity,Lignite Coal,227.979,Million tonnes/yr,130.7050
+1998,"Sample Coal Authority",State-owned Entity,Thermal Coal,201.786,Million tonnes/yr,133.8127
+1998,"Sample Coal Authority",State-owned Entity,Lignite Coal,246.494,Million tonnes/yr,153.7876
+1999,"Sample Coal Authority",State-owned Entity,Thermal Coal,325.890,Million tonnes/yr,144.4217
+1999,"Sample Coal Authority",State-owned Entity,Lignite Coal,276.531,Million tonnes/yr,144.8221
+2000,"Sample Coal Authority",State-owned Entity,Thermal Coal,311.403,Million tonnes/yr,145.8214
+2000,"Sample Coal Authority",State-owned Entity,Lignite Coal,245.580,Million tonnes/yr,137.5482
+2001,"Sample Coal Authority",State-owned Entity,Thermal Coal,271.145,Million tonnes/yr,162.0493
+2001,"Sample Coal Authority",State-owned Entity,Lignite Coal,254.897,Million tonnes/yr,138.9656
+2002,"Sample Coal Authority",State-owned Entity,Thermal Coal,286.323,Million tonnes/yr,140.6141
+2002,"Sample Coal Authority",State-owned Entity,Lignite Coal,233.553,Million tonnes/yr,142.6978
+2003,"Sample Coal Authority",State-owned Entity,Thermal Coal,314.802,Million tonnes/yr,133.3479
+2003,"Sample Coal Authority",State-owned Entity,Lignite Coal,315.676,Million tonnes/yr,162.8860
+2004,"Sample Coal Authority",State-owned Entity,Thermal Coal,319.109,Million tonnes/yr,152.1929
+2004,"Sample Coal Authority",State-owned Entity,Lignite Coal,324.339,Million tonnes/yr,163.7420
+2005,"Sample Coal Authority",State-owned Entity,Thermal Coal,323.544,Million tonnes/yr,166.5448
+2005,"Sample Coal Authority",State-owned Entity,Lignite Coal,302.064,Million tonnes/yr,179.1188
+2006,"Sample Coal Authority",State-owned Entity,Thermal Coal,386.048,Million tonnes/yr,175.5142
+2006,"Sample Coal Authority",State-owned Entity,Lignite Coal,250.700,Million tonnes/yr,153.0347
+2007,"Sample Coal Authority",State-owned Entity,Thermal Coal,302.327,Million tonnes/yr,186.4509
+2007,"Sample Coal Authority",State-owned Entity,Lignite Coal,321.499,Million tonnes/yr,155.3369
+2008,"Sample Coal Authority",State-owned Entity,Thermal Coal,352.107,Million tonnes/yr,168.2993
+2008,"Sample Coal Authority",State-owned Entity,Lignite Coal,415.262,Million tonnes/yr,179.7225
+2009,"Sample Coal Authority",State-owned Entity,Thermal Coal,303.318,Million tonnes/yr,178.0111
+2009,"Sample Coal Authority",State-owned Entity,Lignite Coal,386.653,Million tonnes/yr,161.5100
+2010,"Sample Coal Authority",State-owned Entity,Thermal Coal,339.945,Million tonnes/yr,164.3155
+2010,"Sample Coal Authority",State-owned Entity,Lignite Coal,326.327,Million tonnes/yr,183.5328
+2011,"Sample Coal Authority",State-owned Entity,Thermal Coal,343.694,Million tonnes/yr,177.2513
+2011,"Sample Coal Authority",State-owned Entity,Lignite Coal,469.528,Million tonnes/yr,196.8989
+2012,"Sample Coal Authority",State-owned Entity,Thermal Coal,489.594,Million tonnes/yr,198.6414
+2012,"Sample Coal Authority",State-owned Entity,Lignite Coal,457.889,Million tonnes/yr,190.0850
+2013,"Sample Coal Authority",State-owned Entity,Thermal Coal,341.445,Million tonnes/yr,204.6628
+2013,"Sample Coal Authority",State-owned Entity,Lignite Coal,275.715,Million tonnes/yr,172.0913
+2014,"Sample Coal Authority",State-owned Entity,Thermal Coal,424.756,Million tonnes/yr,216.4605
+2014,"Sample Coal Authority",State-owned Entity,Lignite Coal,424.487,Million tonnes/yr,214.1899
+2015,"Sample Coal Authority",State-owned Entity,Thermal Coal,331.990,Million tonnes/yr,185.5812
+2015,"Sample Coal Authority",State-owned Entity,Lignite Coal,460.180,Million tonnes/yr,211.9715
+2016,"Sample Coal Authority",State-owned Entity,Thermal Coal,344.661,Million tonnes/yr,201.4714
+2016,"Sample Coal Authority",State-owned Entity,Lignite Coal,312.930,Million tonnes/yr,171.8540
+2017,"Sample Coal Authority",State-owned Entity,Thermal Coal,332.200,Million tonnes/yr,217.3067
+2017,"Sample Coal Authority",State-owned Entity,Lignite Coal,403.652,Million tonnes/yr,221.7618
+2018,"Sample Coal Authority",State-owned Entity,Thermal Coal,488.434,Million tonnes/yr,216.3658
+2018,"Sample Coal Authority",State-owned Entity,Lignite Coal,389.867,Million tonnes/yr,173.8475
+2019,"Sample Coal Authority",State-owned Entity,Thermal Coal,442.470,Million tonnes/yr,217.4928
+2019,"Sample Coal Authority",State-owned Entity,Lignite Coal,437.969,Million tonnes/yr,195.7506
+2020,"Sample Coal Authority",State-owned Entity,Thermal Coal,463.816,Million tonnes/yr,202.3383
+2020,"Sample Coal Authority",State-owned Entity,Lignite Coal,521.649,Million tonnes/yr,225.2783
+2021,"Sample Coal Authority",State-owned Entity,Thermal Coal,361.387,Million tonnes/yr,203.9598
+2021,"Sample Coal Authority",State-owned Entity,Lignite Coal,317.914,Million tonnes/yr,183.3107
+2022,"Sample Coal Authority",State-owned Entity,Thermal Coal,430.731,Million tonnes/yr,195.4260
+2022,"Sample Coal Authority",State-owned Entity,Lignite Coal,428.100,Million tonnes/yr,221.4507
+2023,"Sample Coal Authority",State-owned Entity,Thermal Coal,421.650,Million tonnes/yr,242.4761
+2023,"Sample Coal Authority",State-owned Entity,Lignite Coal,481.793,Million tonnes/yr,216.4802
+2024,"Sample Coal Authority",State-owned Entity,Thermal Coal,465.652,Million tonnes/yr,190.0753
+2024,"Sample Coal Authority",State-owned Entity,Lignite Coal,553.176,Million tonnes/yr,251.6859
+1984,"Example Gas Monopoly",State-owned Entity,Natural Gas,161.872,Bcf/yr,106.5118
+1985,"Example Gas Monopoly",State-owned Entity,Natural Gas,260.925,Bcf/yr,150.2668
+1986,"Example Gas Monopoly",State-owned Entity,Natural Gas,325.696,Bcf/yr,153.7139
+1987,"Example Gas Monopoly",State-owned Entity,Natural Gas,339.988,Bcf/yr,171.8322
+1988,"Example Gas Monopoly",State-owned Entity,Natural Gas,367.421,Bcf/yr,191.0940
+1989,"Example Gas Monopoly",State-owned Entity,Natural Gas,376.360,Bcf/yr,186.8149
+1990,"Example Gas Monopoly",State-owned Entity,Natural Gas,268.367,Bcf/yr,165.5088
+1991,"Example Gas Monopoly",State-owned Entity,Natural Gas,387.525,Bcf/yr,176.2914
+1992,"Example Gas Monopoly",State-owned Entity,Natural Gas,381.184,Bcf/yr,176.9865
+1993,"Example Gas Monopoly",State-owned Entity,Natural Gas,459.688,Bcf/yr,201.1022
+1994,"Example Gas Monopoly",State-owned Entity,Natural Gas,410.987,Bcf/yr,219.8069
+1995,"Example Gas Monopoly",State-owned Entity,Natural Gas,357.374,Bcf/yr,215.9691
+1996,"Example Gas Monopoly",State-owned Entity,Natural Gas,448.380,Bcf/yr,284.8639
+1997,"Example Gas Monopoly",State-owned Entity,Natural Gas,507.971,Bcf/yr,228.6899
+1998,"Example Gas Monopoly",State-owned Entity,Natural Gas,518.055,Bcf/yr,272.5033
+1999,"Example Gas Monopoly",State-owned Entity,Natural Gas,484.544,Bcf/yr,295.9611
+2000,"Example Gas Monopoly",State-owned Entity,Natural Gas,538.871,Bcf/yr,311.9130
+2001,"Example Gas Monopoly",State-owned Entity,Natural Gas,510.632,Bcf/yr,320.4925
+2002,"Example Gas Monopoly",State-owned Entity,Natural Gas,446.187,Bcf/yr,283.5726
+2003,"Example Gas Monopoly",State-owned Entity,Natural Gas,636.874,Bcf/yr,276.1356
+2004,"Example Gas Monopoly",State-owned Entity,Natural Gas,664.160,Bcf/yr,302.5577
+2005,"Example Gas Monopoly",State-owned Entity,Natural Gas,512.185,Bcf/yr,336.9570
+2006,"Example Gas Monopoly",State-owned Entity,Natural Gas,684.853,Bcf/yr,375.2240
+2007,"Example Gas Monopoly",State-owned Entity,Natural Gas,596.221,Bcf/yr,373.6989
+2008,"Example Gas Monopoly",State-owned Entity,Natural Gas,560.889,Bcf/yr,318.7657
+2009,"Example Gas Monopoly",State-owned Entity,Natural Gas,632.369,Bcf/yr,415.5681
+2010,"Example Gas Monopoly",State-owned Entity,Natural Gas,972.563,Bcf/yr,432.7664
+2011,"Example Gas Monopoly",State-owned Entity,Natural Gas,713.846,Bcf/yr,371.2693
+2012,"Example Gas Monopoly",State-owned Entity,Natural Gas,863.975,Bcf/yr,458.3804
+2013,"Example Gas Monopoly",State-owned Entity,Natural Gas,1014.537,Bcf/yr,424.5342
+2014,"Example Gas Monopoly",State-owned Entity,Natural Gas,743.657,Bcf/yr,377.8226
+2015,"Example Gas Monopoly",State-owned Entity,Natural Gas,814.852,Bcf/yr,474.5745
+2016,"Example Gas Monopoly",State-owned Entity,Natural Gas,634.678,Bcf/yr,421.1707
+2017,"Example Gas Monopoly",State-owned Entity,Natural Gas,1005.227,Bcf/yr,537.9348
+2018,"Example Gas Monopoly",State-owned Entity,Natural Gas,892.789,Bcf/yr,482.2883
+2019,"Example Gas Monopoly",State-owned Entity,Natural Gas,821.861,Bcf/yr,468.1198
+2020,"Example Gas Monopoly",State-owned Entity,Natural Gas,1219.341,Bcf/yr,570.5037
+2021,"Example Gas Monopoly",State-owned Entity,Natural Gas,1146.279,Bcf/yr,533.1638
+2022,"Example Gas Monopoly",State-owned Entity,Natural Gas,1010.423,Bcf/yr,504.3237
+2023,"Example Gas Monopoly",State-owned Entity,Natural Gas,1280.710,Bcf/yr,553.2692
+2024,"Example Gas Monopoly",State-owned Entity,Natural Gas,1065.550,Bcf/yr,467.5690
+1956,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,153.963,Million tonnes/yr,96.2488
+1957,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,216.176,Million tonnes/yr,101.3808
+1958,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,185.861,Million tonnes/yr,86.2556
+1959,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,154.601,Million tonnes/yr,87.1749
+1960,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,215.568,Million tonnes/yr,106.9690
+1961,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,263.995,Million tonnes/yr,120.9206
+1962,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,217.327,Million tonnes/yr,124.2642
+1963,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,169.601,Million tonnes/yr,108.9694
+1964,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,237.974,Million tonnes/yr,104.6122
+1965,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,327.033,Million tonnes/yr,144.2270
+1966,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,323.497,Million tonnes/yr,149.7700
+1967,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,236.039,Million tonnes/yr,138.9325
+1968,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,286.763,Million tonnes/yr,158.3121
+1969,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,371.452,Million tonnes/yr,154.0931
+1970,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,311.867,Million tonnes/yr,137.5622
+1971,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,385.345,Million tonnes/yr,155.5299
+1972,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,256.847,Million tonnes/yr,166.9286
+1973,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,379.933,Million tonnes/yr,182.9982
+1974,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,296.635,Million tonnes/yr,173.6115
+1975,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,319.124,Million tonnes/yr,194.1837
+1976,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,337.157,Million tonnes/yr,150.7864
+1977,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,405.059,Million tonnes/yr,184.8189
+1978,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,452.020,Million tonnes/yr,208.0255
+1979,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,324.037,Million tonnes/yr,202.0999
+1980,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,422.364,Million tonnes/yr,188.0961
+1981,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,333.659,Million tonnes/yr,168.0037
+1982,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,407.739,Million tonnes/yr,203.6666
+1983,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,541.779,Million tonnes/yr,224.3686
+1984,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,447.805,Million tonnes/yr,180.4366
+1985,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,388.235,Million tonnes/yr,236.7009
+1986,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,520.394,Million tonnes/yr,246.9210
+1987,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,398.086,Million tonnes/yr,250.1333
+1988,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,358.416,Million tonnes/yr,204.2888
+1989,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,398.987,Million tonnes/yr,227.9983
+1990,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,556.335,Million tonnes/yr,252.9549
+1991,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,435.789,Million tonnes/yr,252.7957
+1992,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,560.047,Million tonnes/yr,233.1005
+1993,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,451.313,Million tonnes/yr,281.8322
+1994,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,547.754,Million tonnes/yr,235.4494
+1995,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,505.953,Million tonnes/yr,264.9603
+1996,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,659.250,Million tonnes/yr,294.0178
+1997,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,632.211,Million tonnes/yr,279.9192
+1998,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,486.786,Million tonnes/yr,281.3089
+1999,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,490.968,Million tonnes/yr,245.7338
+2000,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,465.296,Million tonnes/yr,254.8301
+2001,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,698.852,Million tonnes/yr,283.5963
+2002,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,584.881,Million tonnes/yr,290.7294
+2003,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,540.409,Million tonnes/yr,328.1085
+2004,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,558.152,Million tonnes/yr,276.9699
+2005,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,662.167,Million tonnes/yr,281.4654
+2006,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,482.941,Million tonnes/yr,300.3307
+2007,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,752.069,Million tonnes/yr,343.0631
+2008,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,536.078,Million tonnes/yr,287.3950
+2009,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,602.331,Million tonnes/yr,305.0637
+2010,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,510.383,Million tonnes/yr,321.9978
+2011,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,780.107,Million tonnes/yr,335.0793
+2012,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,513.060,Million tonnes/yr,281.5451
+2013,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,488.137,Million tonnes/yr,298.4646
+2014,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,649.413,Million tonnes/yr,373.1362
+2015,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,575.184,Million tonnes/yr,358.8767
+2016,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,870.920,Million tonnes/yr,390.0191
+2017,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,754.919,Million tonnes/yr,368.8944
+2018,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,740.537,Million tonnes/yr,366.6963
+2019,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,531.308,Million tonnes/yr,308.1865
+2020,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,797.684,Million tonnes/yr,368.0663
+2021,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,814.758,Million tonnes/yr,356.4153
+2022,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,818.644,Million tonnes/yr,364.8343
+2023,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,632.783,Million tonnes/yr,376.8976
+2024,"Republic of Samplestan (Coal)",Nation State,Bituminous Coal,556.808,Million tonnes/yr,358.6691
+1985,"Federation of Examplia (Cement)",Nation State,Cement,33.162,Million Tonnes CO2,15.4059
+1986,"Federation of Examplia (Cement)",Nation State,Cement,26.014,Million Tonnes CO2,15.6204
+1987,"Federation of Examplia (Cement)",Nation State,Cement,29.785,Million Tonnes CO2,18.3734
+1988,"Federation of Examplia (Cement)",Nation State,Cement,36.671,Million Tonnes CO2,19.6061
+1989,"Federation of Examplia (Cement)",Nation State,Cement,34.582,Million Tonnes CO2,19.7022
+1990,"Federation of Examplia (Cement)",Nation State,Cement,41.930,Million Tonnes CO2,22.8372
+1991,"Federation of Examplia (Cement)",Nation State,Cement,38.033,Million Tonnes CO2,22.7669
+1992,"Federation of Examplia (Cement)",Nation State,Cement,60.461,Million Tonnes CO2,26.8288
+1993,"Federation of Examplia (Cement)",Nation State,Cement,56.291,Million Tonnes CO2,28.1670
+1994,"Federation of Examplia (Cement)",Nation State,Cement,48.709,Million Tonnes CO2,26.2562
+1995,"Federation of Examplia (Cement)",Nation State,Cement,65.161,Million Tonnes CO2,30.5208
+1996,"Federation of Examplia (Cement)",Nation State,Cement,67.424,Million Tonnes CO2,31.2834
+1997,"Federation of Examplia (Cement)",Nation State,Cement,61.274,Million Tonnes CO2,35.1298
+1998,"Federation of Examplia (Cement)",Nation State,Cement,78.762,Million Tonnes CO2,34.7334
+1999,"Federation of Examplia (Cement)",Nation State,Cement,57.858,Million Tonnes CO2,29.3625
+2000,"Federation of Examplia (Cement)",Nation State,Cement,93.580,Million Tonnes CO2,39.4026
+2001,"Federation of Examplia (Cement)",Nation State,Cement,71.821,Million Tonnes CO2,34.8519
+2002,"Federation of Examplia (Cement)",Nation State,Cement,55.395,Million Tonnes CO2,32.9594
+2003,"Federation of Examplia (Cement)",Nation State,Cement,77.615,Million Tonnes CO2,32.9976
+2004,"Federation of Examplia (Cement)",Nation State,Cement,70.230,Million Tonnes CO2,36.5798
+2005,"Federation of Examplia (Cement)",Nation State,Cement,66.860,Million Tonnes CO2,36.6113
+2006,"Federation of Examplia (Cement)",Nation State,Cement,81.316,Million Tonnes CO2,46.2531
+2007,"Federation of Examplia (Cement)",Nation State,Cement,64.347,Million Tonnes CO2,38.2111
+2008,"Federation of Examplia (Cement)",Nation State,Cement,65.044,Million Tonnes CO2,39.2870
+2009,"Federation of Examplia (Cement)",Nation State,Cement,66.539,Million Tonnes CO2,40.4579
+2010,"Federation of Examplia (Cement)",Nation State,Cement,85.215,Million Tonnes CO2,42.0502
+2011,"Federation of Examplia (Cement)",Nation State,Cement,87.141,Million Tonnes CO2,45.3632
+2012,"Federation of Examplia (Cement)",Nation State,Cement,80.740,Million Tonnes CO2,45.6494
+2013,"Federation of Examplia (Cement)",Nation State,Cement,91.624,Million Tonnes CO2,44.1668
+2014,"Federation of Examplia (Cement)",Nation State,Cement,119.514,Million Tonnes CO2,47.9006
+2015,"Federation of Examplia (Cement)",Nation State,Cement,102.262,Million Tonnes CO2,46.3988
+2016,"Federation of Examplia (Cement)",Nation State,Cement,119.026,Million Tonnes CO2,58.2812
+2017,"Federation of Examplia (Cement)",Nation State,Cement,113.367,Million Tonnes CO2,52.2508
+2018,"Federation of Examplia (Cement)",Nation State,Cement,106.556,Million Tonnes CO2,51.0665
+2019,"Federation of Examplia (Cement)",Nation State,Cement,121.440,Million Tonnes CO2,67.2040
+2020,"Federation of Examplia (Cement)",Nation State,Cement,110.238,Million Tonnes CO2,56.7121
+2021,"Federation of Examplia (Cement)",Nation State,Cement,148.737,Million Tonnes CO2,63.7553
+2022,"Federation of Examplia (Cement)",Nation State,Cement,133.390,Million Tonnes CO2,70.8729
+2023,"Federation of Examplia (Cement)",Nation State,Cement,171.345,Million Tonnes CO2,71.4825
+2024,"Federation of Examplia (Cement)",Nation State,Cement,112.051,Million Tonnes CO2,73.4462
+1962,"Mockland (Oil)",Nation State,Oil & NGL,297.319,Million bbl/yr,136.5648
+1963,"Mockland (Oil)",Nation State,Oil & NGL,217.925,Million bbl/yr,135.7002
+1964,"Mockland (Oil)",Nation State,Oil & NGL,325.202,Million bbl/yr,152.1341
+1965,"Mockland (Oil)",Nation State,Oil & NGL,198.559,Million bbl/yr,129.9200
+1966,"Mockland (Oil)",Nation State,Oil & NGL,353.983,Million bbl/yr,150.5625
+1967,"Mockland (Oil)",Nation State,Oil & NGL,291.690,Million bbl/yr,152.2606
+1968,"Mockland (Oil)",Nation State,Oil & NGL,327.697,Million bbl/yr,167.8114
+1969,"Mockland (Oil)",Nation State,Oil & NGL,356.452,Million bbl/yr,164.4615
+1970,"Mockland (Oil)",Nation State,Oil & NGL,247.254,Million bbl/yr,159.6470
+1971,"Mockland (Oil)",Nation State,Oil & NGL,339.950,Million bbl/yr,183.2088
+1972,"Mockland (Oil)",Nation State,Oil & NGL,376.123,Million bbl/yr,163.1719
+1973,"Mockland (Oil)",Nation State,Oil & NGL,444.521,Million bbl/yr,224.1649
+1974,"Mockland (Oil)",Nation State,Oil & NGL,395.371,Million bbl/yr,181.8130
+1975,"Mockland (Oil)",Nation State,Oil & NGL,349.774,Million bbl/yr,231.4204
+1976,"Mockland (Oil)",Nation State,Oil & NGL,383.508,Million bbl/yr,208.4519
+1977,"Mockland (Oil)",Nation State,Oil & NGL,440.459,Million bbl/yr,236.4360
+1978,"Mockland (Oil)",Nation State,Oil & NGL,449.349,Million bbl/yr,204.3194
+1979,"Mockland (Oil)",Nation State,Oil & NGL,627.884,Million bbl/yr,267.3366
+1980,"Mockland (Oil)",Nation State,Oil & NGL,638.860,Million bbl/yr,257.9735
+1981,"Mockland (Oil)",Nation State,Oil & NGL,451.557,Million bbl/yr,261.4151
+1982,"Mockland (Oil)",Nation State,Oil & NGL,624.258,Million bbl/yr,273.9553
+1983,"Mockland (Oil)",Nation State,Oil & NGL,599.736,Million bbl/yr,255.5844
+1984,"Mockland (Oil)",Nation State,Oil & NGL,632.047,Million bbl/yr,289.3723
+1985,"Mockland (Oil)",Nation State,Oil & NGL,404.281,Million bbl/yr,257.4766
+1986,"Mockland (Oil)",Nation State,Oil & NGL,544.130,Million bbl/yr,322.7485
+1987,"Mockland (Oil)",Nation State,Oil & NGL,628.249,Million bbl/yr,256.8996
+1988,"Mockland (Oil)",Nation State,Oil & NGL,491.393,Million bbl/yr,313.0529
+1989,"Mockland (Oil)",Nation State,Oil & NGL,630.033,Million bbl/yr,347.6591
+1990,"Mockland (Oil)",Nation State,Oil & NGL,712.428,Million bbl/yr,346.6612
+1991,"Mockland (Oil)",Nation State,Oil & NGL,811.088,Million bbl/yr,351.5603
+1992,"Mockland (Oil)",Nation State,Oil & NGL,641.641,Million bbl/yr,281.7365
+1993,"Mockland (Oil)",Nation State,Oil & NGL,640.745,Million bbl/yr,325.6706
+1994,"Mockland (Oil)",Nation State,Oil & NGL,602.271,Million bbl/yr,310.7391
+1995,"Mockland (Oil)",Nation State,Oil & NGL,837.707,Million bbl/yr,351.0752
+1996,"Mockland (Oil)",Nation State,Oil & NGL,821.709,Million bbl/yr,373.0187
+1997,"Mockland (Oil)",Nation State,Oil & NGL,545.131,Million bbl/yr,336.1991
+1998,"Mockland (Oil)",Nation State,Oil & NGL,704.268,Million bbl/yr,323.9487
+1999,"Mockland (Oil)",Nation State,Oil & NGL,760.276,Million bbl/yr,328.3622
+2000,"Mockland (Oil)",Nation State,Oil & NGL,610.564,Million bbl/yr,402.3626
+2001,"Mockland (Oil)",Nation State,Oil & NGL,657.085,Million bbl/yr,381.5044
+2002,"Mockland (Oil)",Nation State,Oil & NGL,901.689,Million bbl/yr,435.5971
+2003,"Mockland (Oil)",Nation State,Oil & NGL,675.503,Million bbl/yr,421.4109
+2004,"Mockland (Oil)",Nation State,Oil & NGL,615.872,Million bbl/yr,408.7235
+2005,"Mockland (Oil)",Nation State,Oil & NGL,794.476,Million bbl/yr,363.6975
+2006,"Mockland (Oil)",Nation State,Oil & NGL,1098.321,Million bbl/yr,458.3379
+2007,"Mockland (Oil)",Nation State,Oil & NGL,746.931,Million bbl/yr,454.8617
+2008,"Mockland (Oil)",Nation State,Oil & NGL,838.664,Million bbl/yr,377.5994
+2009,"Mockland (Oil)",Nation State,Oil & NGL,675.766,Million bbl/yr,374.5615
+2010,"Mockland (Oil)",Nation State,Oil & NGL,897.441,Million bbl/yr,409.3389
+2011,"Mockland (Oil)",Nation State,Oil & NGL,885.134,Million bbl/yr,435.3088
+2012,"Mockland (Oil)",Nation State,Oil & NGL,1007.661,Million bbl/yr,520.0689
+2013,"Mockland (Oil)",Nation State,Oil & NGL,1209.755,Million bbl/yr,486.1260
+2014,"Mockland (Oil)",Nation State,Oil & NGL,1055.913,Million bbl/yr,442.4920
+2015,"Mockland (Oil)",Nation State,Oil & NGL,1074.116,Million bbl/yr,483.9857
+2016,"Mockland (Oil)",Nation State,Oil & NGL,1232.099,Million bbl/yr,505.6790
+2017,"Mockland (Oil)",Nation State,Oil & NGL,950.136,Million bbl/yr,528.9017
+2018,"Mockland (Oil)",Nation State,Oil & NGL,985.139,Million bbl/yr,442.5549
+2019,"Mockland (Oil)",Nation State,Oil & NGL,1232.462,Million bbl/yr,506.7667
+2020,"Mockland (Oil)",Nation State,Oil & NGL,1193.743,Million bbl/yr,571.5045
+2021,"Mockland (Oil)",Nation State,Oil & NGL,912.472,Million bbl/yr,509.2758
+2022,"Mockland (Oil)",Nation State,Oil & NGL,892.963,Million bbl/yr,585.9297
+2023,"Mockland (Oil)",Nation State,Oil & NGL,927.693,Million bbl/yr,475.1128
+2024,"Mockland (Oil)",Nation State,Oil & NGL,814.549,Million bbl/yr,463.8301

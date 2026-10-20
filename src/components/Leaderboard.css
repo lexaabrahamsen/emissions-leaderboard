@@ -1,0 +1,71 @@
+.leaderboard .filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  align-items: flex-end;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.leaderboard .field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+}
+.leaderboard .field > span,
+.leaderboard legend { color: var(--text-muted); padding: 0; margin-bottom: 0.35rem; }
+
+.leaderboard select {
+  font: inherit;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.leaderboard .segmented,
+.leaderboard .checks { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.leaderboard .segmented label,
+.leaderboard .checks label { display: flex; gap: 0.35rem; align-items: center; cursor: pointer; }
+
+.leaderboard .status { color: var(--text-muted); font-size: 0.875rem; margin: 1rem 0 0.5rem; }
+
+.leaderboard .table-wrap { overflow-x: auto; }
+
+.leaderboard table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.leaderboard th,
+.leaderboard td { padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--border); text-align: left; }
+.leaderboard th { font-weight: 500; color: var(--text-muted); font-size: 0.8rem; white-space: nowrap; }
+.leaderboard th button {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer;
+}
+.leaderboard th button:hover { color: var(--text); }
+
+.leaderboard .col-rank { width: 3rem; color: var(--text-muted); }
+.leaderboard .col-value { text-align: right; white-space: nowrap; }
+.leaderboard th.col-value { text-align: right; }
+.leaderboard .col-share { width: 30%; min-width: 10rem; }
+.leaderboard .col-trend { color: var(--accent); width: 7rem; }
+
+.leaderboard .share-cell { display: flex; align-items: center; gap: 0.5rem; }
+.leaderboard .share-bar {
+  display: block;
+  height: 0.6rem;
+  min-width: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+  flex-shrink: 0;
+  max-width: calc(100% - 4rem);
+}
+
+@media (max-width: 640px) {
+  .leaderboard .col-type,
+  .leaderboard .col-trend { display: none; }
+}

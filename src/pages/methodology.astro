@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadMeta } from '../lib/data';
+
+const meta = loadMeta();
+---
+
+<Base title="How we calculated this" description="Methodology, data sources, and limits of the Carbon Majors leaderboard.">
+  <article>
+    <h1>How we calculated this</h1>
+    <p class="lede">
+      Draft. Every data quirk found while building the pipeline should be written up here.
+    </p>
+
+    <h2>What “emissions” means here</h2>
+    <p>
+      The Carbon Majors database uses <strong>production-based attribution</strong>: a producer is assigned
+      the emissions from burning the oil, gas, and coal it extracted and sold, plus cement process emissions,
+      plus a partial set of its own operational emissions (flaring, venting, own fuel use, fugitive methane).
+      Figures are in CO₂-equivalent.
+    </p>
+
+    <h2>Comparing producers to people</h2>
+    <p>
+      A person's footprint includes burning some of these same products. The “your footprint vs. theirs”
+      comparison is a sense of scale, not two separate piles of carbon. The emissions are the same; the
+      question is who is in a position to reduce them.
+    </p>
+
+    <h2>Units</h2>
+    <p>
+      Carbon Majors reports CO₂e (including methane). Our World in Data's per-capita figures are CO₂ only
+      unless noted. Where we compare the two, we use OWID's greenhouse-gas (CO₂e) series when available and
+      label any mismatch.
+    </p>
+
+    <h2>Ownership categories</h2>
+    <p>
+      Investor-owned companies, state-owned companies, and nation-states. Nation-state entries (for example,
+      a country's state coal production) rank near the top because they aggregate an entire national
+      sector into one entity.
+    </p>
+
+    <h2>Sources</h2>
+    <ul>
+      {meta.sources.map((s) => (
+        <li><strong>{s.id}</strong>: {s.license} <span class="file">({s.file})</span></li>
+      ))}
+    </ul>
+    <p class="caveat">{meta.concentration.caveat}</p>
+  </article>
+</Base>
+
+<style>
+  article { max-width: 42rem; }
+  .lede { color: var(--text-muted); font-style: italic; }
+  h2 { margin-top: 2rem; font-size: 1.2rem; }
+  .file { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+  .caveat { color: var(--text-muted); font-size: 0.9rem; }
+</style>

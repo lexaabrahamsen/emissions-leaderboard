@@ -1,0 +1,21 @@
+---
+import Leaderboard from '../components/Leaderboard';
+import Base from '../layouts/Base.astro';
+import { loadMeta } from '../lib/data';
+
+const meta = loadMeta();
+---
+
+<Base title="Leaderboard" description={`Fossil fuel and cement producers ranked by emissions, ${meta.years[0]}–${meta.latestYear}.`}>
+  <h1>Producer leaderboard</h1>
+  <p class="intro">
+    Emissions attributed to each producer from extracting and burning the oil, gas, coal, and cement it
+    sold. <a href="/methodology">How this is calculated</a>.
+  </p>
+  <Leaderboard client:load years={meta.years} defaultYear={meta.latestYear} />
+</Base>
+
+<style>
+  h1 { margin-top: 0; }
+  .intro { color: var(--text-muted); max-width: 42rem; }
+</style>

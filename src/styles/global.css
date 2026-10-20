@@ -1,0 +1,59 @@
+/* Placeholder design tokens. The visual design pass comes later; keep everything on tokens
+   so it can be reskinned in one place. */
+:root {
+  color-scheme: light dark;
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --text: #1c1b18;
+  --text-muted: #5f5d57;
+  --border: #e3e0d8;
+  --accent: #b5401f; /* emissions / heat */
+  --accent-soft: #f6dfd6;
+  --focus: #1f5fb5;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, monospace;
+  --radius: 8px;
+  --max-w: 72rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151412;
+    --surface: #1e1d1a;
+    --text: #ece9e2;
+    --text-muted: #a6a39b;
+    --border: #34322d;
+    --accent: #f0805c;
+    --accent-soft: #4a2418;
+    --focus: #7fb0f0;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-underline-offset: 0.2em; }
+a:hover { color: var(--accent); }
+
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.container { max-width: var(--max-w); margin: 0 auto; padding: 0 1rem; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.num { font-variant-numeric: tabular-nums; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
