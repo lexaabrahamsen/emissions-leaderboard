@@ -68,6 +68,20 @@ export interface CountryFootprint {
   ghgPerCapitaT: number | null; // all GHGs, CO2e — best match for Carbon Majors units
 }
 
+/** One country's emissions for the map year (public/data/countries.json). */
+export interface CountryEmissions {
+  iso3: string;
+  name: string;
+  population: number | null;
+  co2Mt: number; // territorial fossil + cement CO2, million tonnes
+  co2PerCapitaT: number | null;
+}
+
+export interface CountriesYear {
+  year: number; // one common year so countries are comparable
+  rows: CountryEmissions[]; // sorted by co2Mt, descending
+}
+
 export interface Concentration {
   year: number;
   entitiesForHalf: number; // how many entities make up >= 50% of the denominator
@@ -80,7 +94,7 @@ export interface Concentration {
 export interface Meta {
   dataSource: 'real' | 'sample';
   builtAt: string;
-  sources: { id: string; file: string; license: string; note?: string }[];
+  sources: { id: string; file: string; license: string; isSample: boolean; note?: string }[];
   years: number[]; // years with leaderboard files, ascending
   latestYear: number;
   entityCount: number;

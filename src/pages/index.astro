@@ -1,12 +1,16 @@
 ---
+import EmissionsMap from '../components/EmissionsMap';
 import Base from '../layouts/Base.astro';
-import { loadLeaderboard, loadMeta } from '../lib/data';
+import { loadCountries, loadLeaderboard, loadMeta } from '../lib/data';
+import { buildMapShapes } from '../lib/map';
 import { formatMt, formatPct } from '../lib/format';
 
 const meta = loadMeta();
 const c = meta.concentration;
 const latest = loadLeaderboard(meta.latestYear);
 const top = latest.rows.slice(0, 5);
+const countries = loadCountries();
+const shapes = countries ? buildMapShapes() : [];
 ---
 
 <Base title="Home">
@@ -44,6 +48,17 @@ const top = latest.rows.slice(0, 5);
       denominator. <a href="/methodology">Why that matters</a>.
     </p>
   </section>
+
+  {countries && (
+    <section aria-labelledby="map-heading" class="map-section">
+      <h2 id="map-heading">Which countries emit the most?</h2>
+      <p class="note">
+        Territorial CO₂ from fossil fuels and cement, {countries.year}. Switch to per-person to see how
+        the picture changes: the largest totals are not the largest footprints per head.
+      </p>
+      <EmissionsMap client:visible shapes={shapes} rows={countries.rows} year={countries.year} />
+    </section>
+  )}
 </Base>
 
 <style>
@@ -64,5 +79,6 @@ const top = latest.rows.slice(0, 5);
   }
   .top-list li::before { content: counter(rank); color: var(--text-muted); }
   .share { color: var(--text-muted); text-align: right; }
+  .map-section { margin-top: 3rem; }
   .note { color: var(--text-muted); font-size: 0.875rem; }
 </style>

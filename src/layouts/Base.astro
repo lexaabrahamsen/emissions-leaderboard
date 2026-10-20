@@ -9,6 +9,7 @@ interface Props {
 
 const { title, description = 'How concentrated are global emissions? A leaderboard of the producers behind them.' } = Astro.props;
 const meta = loadMeta();
+const sampleSources = meta.sources.filter((s) => s.isSample).map((s) => (s.id === 'carbon_majors' ? 'producer' : 'country'));
 const pageTitle = title === 'Home' ? 'Carbon Majors Leaderboard' : `${title} · Carbon Majors Leaderboard`;
 ---
 
@@ -27,8 +28,8 @@ const pageTitle = title === 'Home' ? 'Carbon Majors Leaderboard' : `${title} · 
 
     {meta.dataSource === 'sample' && (
       <div class="sample-banner" role="note">
-        Showing <strong>synthetic sample data</strong>. Entity names and numbers are invented.
-        Add the real downloads to <code>data/raw/</code> before publishing.
+        Showing <strong>synthetic sample data</strong> for {sampleSources.join(' and ')} figures. Names and numbers
+        there are invented. Add the real downloads to <code>data/raw/</code> before publishing.
       </div>
     )}
 

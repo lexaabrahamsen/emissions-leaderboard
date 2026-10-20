@@ -117,3 +117,18 @@ World,2023,OWID_WRL,,37000,4.6,,
   assert.equal(footprints[0].ghgPerCapitaT, null);
   assert.equal(worldCo2ByYear.get(2023), 37000);
 });
+
+test('owid: countries picks the latest complete year and sorts by total CO2', () => {
+  const rows = ['country,year,iso_code,population,co2,co2_per_capita'];
+  for (let i = 0; i < 100; i++) {
+    const iso = String.fromCharCode(65 + (i % 26), 65 + (Math.floor(i / 26) % 26), 65);
+    rows.push(`C${i},2022,${iso},1000000,${i + 1},${i + 1}`);
+    rows.push(`C${i},2023,${iso},1000000,${i + 1},${i + 1}`);
+  }
+  rows.push('Partial,2024,PRT,1000000,5,5'); // newest year but too sparse to use
+  rows.push('World,2023,OWID_WRL,,37000,4.6');
+  const { countries } = parseOwid(rows.join('\n'));
+  assert.equal(countries?.year, 2023);
+  assert.equal(countries?.rows.length, 100);
+  assert.equal(countries?.rows[0].co2Mt, 100);
+});

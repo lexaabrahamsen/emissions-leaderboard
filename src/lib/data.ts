@@ -3,7 +3,7 @@
 
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import type { EntityDetail, EntitySummary, LeaderboardYear, Meta } from '../../pipeline/types.ts';
+import type { CountriesYear, EntityDetail, EntitySummary, LeaderboardYear, Meta } from '../../pipeline/types.ts';
 
 const DATA_DIR = join(process.cwd(), 'public/data');
 
@@ -19,3 +19,10 @@ export const loadMeta = () => read<Meta>('meta.json');
 export const loadEntities = () => read<EntitySummary[]>('entities.json');
 export const loadEntity = (slug: string) => read<EntityDetail>(`entities/${slug}.json`);
 export const loadLeaderboard = (year: number) => read<LeaderboardYear>(`leaderboard/${year}.json`);
+export const loadCountries = (): CountriesYear | null => {
+  try {
+    return read<CountriesYear>('countries.json');
+  } catch {
+    return null;
+  }
+};

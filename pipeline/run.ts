@@ -48,7 +48,7 @@ const emissions = parseCarbonMajors(readFileSync(cm.path, 'utf8'));
 const emissionErrors = validateEmissions(emissions);
 if (emissionErrors.length) fail('Carbon Majors validation', emissionErrors);
 
-const { footprints, worldCo2ByYear } = parseOwid(readFileSync(owid.path, 'utf8'));
+const { footprints, worldCo2ByYear, countries } = parseOwid(readFileSync(owid.path, 'utf8'));
 const footprintErrors = validateFootprints(footprints);
 if (footprintErrors.length) fail('OWID validation', footprintErrors);
 
@@ -64,6 +64,7 @@ writeJson(join(OUT, 'entities.json'), entities.map(toSummary));
 for (const e of entities) writeJson(join(OUT, 'entities', `${e.slug}.json`), e);
 for (const lb of leaderboards) writeJson(join(OUT, 'leaderboard', `${lb.year}.json`), lb);
 writeJson(join(OUT, 'footprints.json'), footprints);
+if (countries) writeJson(join(OUT, 'countries.json'), countries);
 
 const meta: Meta = {
   dataSource: cm.isSample || owid.isSample ? 'sample' : 'real',
@@ -72,11 +73,13 @@ const meta: Meta = {
     {
       id: 'carbon_majors',
       file: cm.path.replace(ROOT, ''),
+      isSample: cm.isSample,
       license: 'InfluenceMap Carbon Majors — non-commercial use, see carbonmajors.org terms',
     },
     {
       id: 'owid',
       file: owid.path.replace(ROOT, ''),
+      isSample: owid.isSample,
       license: 'CC BY 4.0 (Our World in Data); underlying Global Carbon Project data under its own terms',
     },
   ],
@@ -92,7 +95,7 @@ console.log(
   [
     `✔ Data built from ${meta.dataSource.toUpperCase()} files`,
     `  ${emissions.length.toLocaleString()} emission rows → ${entities.length} entities, ${leaderboards.length} years (${meta.years[0]}–${latest.year})`,
-    `  ${footprints.length} country footprints`,
+    `  ${footprints.length} country footprints; map year ${countries?.year ?? 'n/a'} (${countries?.rows.length ?? 0} countries)`,
     `  ${latest.year}: ${c.entitiesForHalf} entities ≈ 50% of ${c.denominator} (${c.denominatorMt.toLocaleString()} Mt)`,
   ].join('\n'),
 );
