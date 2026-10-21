@@ -7,8 +7,10 @@ public/data/
 
 # Raw downloads: Carbon Majors is non-commercial licensed; keep it out of a public repo
 # unless you've confirmed redistribution is allowed. See data/raw/README.md.
+# OWID (CC BY 4.0) is redistributable, so it is committed.
 data/raw/*
 !data/raw/README.md
+!data/raw/owid-co2-data.csv
 
 .DS_Store
 .env
