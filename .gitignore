@@ -14,3 +14,4 @@ data/raw/*
 
 .DS_Store
 .env
+.vercel

@@ -1,26 +1,13 @@
-/* Sequential ramp, one hue (the site's heat accent), light → dark for low → high in light mode.
-   Dark mode anchors on the dark surface instead: low = dim, high = bright. */
+/* Sequential ramp, one hue (the site's heat accent). Anchored on the dark surface: low = dim, high = bright. */
 .emap {
-  --bin-0: #fbe6dc;
-  --bin-1: #f6c3a8;
-  --bin-2: #ec9468;
-  --bin-3: #d26a3c;
-  --bin-4: #a8431f;
-  --bin-5: #6b2510;
-  --nodata: #e9e6de;
-  --outline: #fbfaf7;
-}
-@media (prefers-color-scheme: dark) {
-  .emap {
-    --bin-0: #3b241b;
-    --bin-1: #6a3522;
-    --bin-2: #9b4d2d;
-    --bin-3: #cc6a43;
-    --bin-4: #ee8f68;
-    --bin-5: #ffbc9a;
-    --nodata: #2a2824;
-    --outline: #151412;
-  }
+  --bin-0: #3b241b;
+  --bin-1: #6a3522;
+  --bin-2: #9b4d2d;
+  --bin-3: #cc6a43;
+  --bin-4: #ee8f68;
+  --bin-5: #ffbc9a;
+  --nodata: #2a2824;
+  --outline: #151412;
 }
 
 .emap-controls { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
