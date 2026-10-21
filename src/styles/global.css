@@ -1,4 +1,4 @@
-/* Dark theme only. Placeholder design tokens. The visual design pass comes later; keep everything on tokens
+/* Dark is the default; :root[data-theme='light'] overrides it (toggle in the header, see Base.astro). Placeholder design tokens. The visual design pass comes later; keep everything on tokens
    so it can be reskinned in one place. */
 :root {
   color-scheme: dark;
@@ -14,6 +14,18 @@
   --font-mono: ui-monospace, 'SF Mono', Menlo, monospace;
   --radius: 8px;
   --max-w: 72rem;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --text: #1c1b18;
+  --text-muted: #5f5d57;
+  --border: #e3e0d8;
+  --accent: #b5401f;
+  --accent-soft: #f6dfd6;
+  --focus: #1f5fb5;
 }
 
 

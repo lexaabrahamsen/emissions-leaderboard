@@ -22,6 +22,12 @@ const pageTitle = title === 'Home' ? 'Carbon Majors Leaderboard' : `${title} · 
     <meta name="description" content={description} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
+    <script is:inline>
+      // Apply the saved theme before first paint so the page never flashes the wrong one.
+      try {
+        if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light';
+      } catch {}
+    </script>
   </head>
   <body>
     <a class="visually-hidden" href="#main">Skip to content</a>
@@ -39,6 +45,10 @@ const pageTitle = title === 'Home' ? 'Carbon Majors Leaderboard' : `${title} · 
         <nav aria-label="Main">
           <a href="/leaderboard">Leaderboard</a>
           <a href="/methodology">How we calculated this</a>
+          <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to light theme">
+            <span class="to-light" aria-hidden="true">☀ Light</span>
+            <span class="to-dark" aria-hidden="true">☾ Dark</span>
+          </button>
         </nav>
       </div>
     </header>
@@ -57,6 +67,24 @@ const pageTitle = title === 'Home' ? 'Carbon Majors Leaderboard' : `${title} · 
         <p class="built">Data built {new Date(meta.builtAt).toLocaleDateString('en-US', { dateStyle: 'medium' })}.</p>
       </div>
     </footer>
+
+    <script>
+      const root = document.documentElement;
+      const btn = document.getElementById('theme-toggle')!;
+      const sync = () => {
+        const light = root.dataset.theme === 'light';
+        btn.setAttribute('aria-label', light ? 'Switch to dark theme' : 'Switch to light theme');
+      };
+      btn.addEventListener('click', () => {
+        const next = root.dataset.theme === 'light' ? 'dark' : 'light';
+        root.dataset.theme = next;
+        try {
+          localStorage.setItem('theme', next);
+        } catch {}
+        sync();
+      });
+      sync();
+    </script>
   </body>
 </html>
 
@@ -73,6 +101,15 @@ const pageTitle = title === 'Home' ? 'Carbon Majors Leaderboard' : `${title} · 
     display: flex; align-items: center; justify-content: space-between;
     gap: 1rem; padding-block: 1rem; flex-wrap: wrap;
   }
+  .theme-toggle {
+    font: inherit; font-size: 0.85rem; color: var(--text); background: var(--surface);
+    border: 1px solid var(--border); border-radius: 999px; padding: 0.2rem 0.75rem; cursor: pointer;
+  }
+  .theme-toggle:hover { border-color: var(--text-muted); }
+  .theme-toggle .to-dark { display: none; }
+  :global(:root[data-theme='light']) .theme-toggle .to-light { display: none; }
+  :global(:root[data-theme='light']) .theme-toggle .to-dark { display: inline; }
+  nav { align-items: center; }
   .wordmark { font-weight: 600; text-decoration: none; }
   nav { display: flex; gap: 1.25rem; font-size: 0.95rem; }
   main { padding-block: 2.5rem 4rem; }
