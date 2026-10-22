@@ -16,6 +16,9 @@ const RAW = join(ROOT, 'data/raw');
 const SAMPLE = join(ROOT, 'data/sample');
 const OUT = join(ROOT, 'public/data');
 
+const ENTITY_META = join(ROOT, 'data/entity-meta.json');
+const LOGO_MANIFEST = join(ROOT, 'public/logos/manifest.json');
+
 const FILES = {
   carbonMajors: { raw: 'carbon-majors-medium.csv', sample: 'carbon-majors-medium.sample.csv' },
   owid: { raw: 'owid-co2-data.csv', sample: 'owid-co2.sample.csv' },
@@ -54,6 +57,19 @@ if (footprintErrors.length) fail('OWID validation', footprintErrors);
 
 const entities = buildEntities(emissions);
 const leaderboards = buildLeaderboards(entities);
+
+// Home country (hand-curated) and logo (downloaded by fetch-logos.ts; optional) per producer.
+const entityMeta: Record<string, { country: string | null }> = existsSync(ENTITY_META)
+  ? JSON.parse(readFileSync(ENTITY_META, 'utf8'))
+  : {};
+const logos: Record<string, string> = existsSync(LOGO_MANIFEST) ? JSON.parse(readFileSync(LOGO_MANIFEST, 'utf8')) : {};
+const decorate = <T extends { slug: string }>(row: T) => ({
+  ...row,
+  country: entityMeta[row.slug]?.country ?? null,
+  logo: logos[row.slug] ?? null,
+});
+for (let i = 0; i < entities.length; i++) entities[i] = decorate(entities[i]);
+for (const lb of leaderboards) lb.rows = lb.rows.map(decorate);
 const latest = leaderboards[leaderboards.length - 1];
 
 rmSync(OUT, { recursive: true, force: true });
@@ -95,6 +111,7 @@ console.log(
   [
     `✔ Data built from ${meta.dataSource.toUpperCase()} files`,
     `  ${emissions.length.toLocaleString()} emission rows → ${entities.length} entities, ${leaderboards.length} years (${meta.years[0]}–${latest.year})`,
+    `  ${entities.filter((e) => e.country).length} producers with a flag, ${entities.filter((e) => e.logo).length} with a logo`,
     `  ${footprints.length} country footprints; map year ${countries?.year ?? 'n/a'} (${countries?.rows.length ?? 0} countries)`,
     `  ${latest.year}: ${c.entitiesForHalf} entities ≈ 50% of ${c.denominator} (${c.denominatorMt.toLocaleString()} Mt)`,
   ].join('\n'),

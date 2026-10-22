@@ -16,6 +16,7 @@ import {
   type LeaderboardYear,
 } from '../../pipeline/types.ts';
 import { COMMODITY_LABEL, ENTITY_TYPE_LABEL, formatMt, formatPct } from '../lib/format';
+import EntityLabel from './EntityLabel';
 import Sparkline from './Sparkline';
 import './Leaderboard.css';
 
@@ -28,6 +29,8 @@ interface Props {
 }
 
 interface Row {
+  logo: string | null;
+  country: string | null;
   rank: number;
   slug: string;
   name: string;
@@ -129,6 +132,8 @@ export default function Leaderboard({ years, defaultYear }: Props) {
         rank: i + 1,
         slug: r.slug,
         name: r.name,
+        logo: r.logo ?? null,
+        country: r.country ?? null,
         type: r.type,
         value,
         share: total > 0 ? value / total : 0,
@@ -143,7 +148,15 @@ export default function Leaderboard({ years, defaultYear }: Props) {
       col.accessor('rank', { header: '#', cell: (c) => c.getValue(), enableSorting: false }),
       col.accessor('name', {
         header: 'Producer',
-        cell: (c) => <a href={`${BASE}/companies/${c.row.original.slug}`}>{c.getValue()}</a>,
+        cell: (c) => (
+          <EntityLabel
+            name={c.getValue()}
+            logo={c.row.original.logo}
+            country={c.row.original.country}
+            href={`${BASE}/companies/${c.row.original.slug}`}
+            base={BASE}
+          />
+        ),
       }),
       col.accessor('type', { header: 'Ownership', cell: (c) => ENTITY_TYPE_LABEL[c.getValue()] }),
       col.accessor('value', {

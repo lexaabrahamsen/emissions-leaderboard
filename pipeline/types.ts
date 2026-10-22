@@ -32,6 +32,8 @@ export interface EntitySummary {
   cumulativeMtCO2e: number;
   rankCumulative: number;
   commodities: Commodity[];
+  country?: string | null; // ISO 3166-1 alpha-2 of the producer's home country, from data/entity-meta.json
+  logo?: string | null; // filename in public/logos/, when one was downloaded
 }
 
 /** public/data/entities/{slug}.json — full history for a company page. */
@@ -49,6 +51,8 @@ export interface LeaderboardRow {
   cumulativeMtCO2e: number; // through this year
   cumulativeByCommodity: ByCommodity;
   sparkline: number[]; // last N annual totals, oldest first
+  country?: string | null;
+  logo?: string | null;
 }
 
 export interface LeaderboardYear {

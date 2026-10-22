@@ -28,3 +28,9 @@ export const COMMODITY_LABEL: Record<Commodity, string> = {
   coal: 'Coal',
   cement: 'Cement',
 };
+
+/** Flag emoji for an ISO 3166-1 alpha-2 code ('' for null/invalid). */
+export function flagFromIso2(code: string | null | undefined): string {
+  if (!code || !/^[A-Z]{2}$/.test(code)) return '';
+  return [...code].map((c) => String.fromCodePoint(0x1f1e6 + c.charCodeAt(0) - 65)).join('');
+}

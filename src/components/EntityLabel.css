@@ -1,0 +1,7 @@
+/* The logo slot is always reserved so names line up whether or not a logo exists.
+   Favicons are often dark-on-transparent, so they sit on a light chip that works in both themes. */
+.entity-label { display: inline-flex; align-items: center; gap: 0.5rem; }
+.entity-logo { flex: none; width: 20px; height: 20px; border-radius: 4px; display: inline-block; }
+.entity-logo:has(img) { background: #fff; box-shadow: 0 0 0 1px var(--border); }
+.entity-logo img { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: 4px; }
+.entity-flag { font-size: 1.05em; line-height: 1; }

@@ -1,5 +1,6 @@
 ---
 import type { Commodity } from '../../../pipeline/types.ts';
+import EntityLabel from '../../components/EntityLabel';
 import Base from '../../layouts/Base.astro';
 import { loadEntities, loadEntity, loadMeta } from '../../lib/data';
 import { COMMODITY_LABEL, ENTITY_TYPE_LABEL, formatMt } from '../../lib/format';
@@ -32,7 +33,7 @@ const recent = entity.series.slice(-10).reverse();
 
 <Base title={entity.name} description={`${entity.name}: emissions ${entity.firstYear}–${entity.lastYear} from the Carbon Majors database.`}>
   <p class="crumb"><a href="/leaderboard">← Leaderboard</a></p>
-  <h1>{entity.name}</h1>
+  <h1><EntityLabel name={entity.name} logo={entity.logo} country={entity.country} /></h1>
   <p class="type">{ENTITY_TYPE_LABEL[entity.type]} · {entity.commodities.map((c: Commodity) => COMMODITY_LABEL[c]).join(', ')}</p>
 
   <dl class="stats">

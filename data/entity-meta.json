@@ -1,0 +1,714 @@
+{
+ "former-soviet-union-1900-1991": {
+  "country": null,
+  "domain": null
+ },
+ "china-coal-1945-2004": {
+  "country": "CN",
+  "domain": null
+ },
+ "saudi-aramco": {
+  "country": "SA",
+  "domain": "aramco.com"
+ },
+ "chevron": {
+  "country": "US",
+  "domain": "chevron.com"
+ },
+ "exxonmobil": {
+  "country": "US",
+  "domain": "exxonmobil.com"
+ },
+ "gazprom": {
+  "country": "RU",
+  "domain": "gazprom.com"
+ },
+ "national-iranian-oil-company": {
+  "country": "IR",
+  "domain": "nioc.ir"
+ },
+ "bp": {
+  "country": "GB",
+  "domain": "bp.com"
+ },
+ "shell": {
+  "country": "GB",
+  "domain": "shell.com"
+ },
+ "coal-india": {
+  "country": "IN",
+  "domain": "coalindia.in"
+ },
+ "pemex": {
+  "country": "MX",
+  "domain": "pemex.com"
+ },
+ "chn-energy": {
+  "country": "CN",
+  "domain": "chnenergy.com.cn"
+ },
+ "china-cement": {
+  "country": "CN",
+  "domain": null
+ },
+ "conocophillips": {
+  "country": "US",
+  "domain": "conocophillips.com"
+ },
+ "poland-coal-1913-2001": {
+  "country": "PL",
+  "domain": null
+ },
+ "cnpc": {
+  "country": "CN",
+  "domain": "cnpc.com.cn"
+ },
+ "british-coal-corporation-1947-1994": {
+  "country": "GB",
+  "domain": null
+ },
+ "core-natural-resources": {
+  "country": "US",
+  "domain": null
+ },
+ "totalenergies": {
+  "country": "FR",
+  "domain": "totalenergies.com"
+ },
+ "abu-dhabi-national-oil-company": {
+  "country": "AE",
+  "domain": "adnoc.ae"
+ },
+ "peabody-energy": {
+  "country": "US",
+  "domain": "peabodyenergy.com"
+ },
+ "petroleos-de-venezuela": {
+  "country": "VE",
+  "domain": "pdvsa.com"
+ },
+ "kuwait-petroleum-corp": {
+  "country": "KW",
+  "domain": "kpc.com.kw"
+ },
+ "iraq-national-oil-company": {
+  "country": "IQ",
+  "domain": null
+ },
+ "rosneft": {
+  "country": "RU",
+  "domain": "rosneft.com"
+ },
+ "sonatrach": {
+  "country": "DZ",
+  "domain": "sonatrach.com"
+ },
+ "jinneng-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "occidental-petroleum": {
+  "country": "US",
+  "domain": "oxy.com"
+ },
+ "petrobras": {
+  "country": "BR",
+  "domain": "petrobras.com.br"
+ },
+ "shandong-energy": {
+  "country": "CN",
+  "domain": null
+ },
+ "bhp": {
+  "country": "AU",
+  "domain": "bhp.com"
+ },
+ "nigerian-national-petroleum-corp": {
+  "country": "NG",
+  "domain": "nnpcgroup.com"
+ },
+ "china-national-coal-group": {
+  "country": "CN",
+  "domain": "chinacoal.com"
+ },
+ "eni": {
+  "country": "IT",
+  "domain": "eni.com"
+ },
+ "czechoslovakia-coal-1938-1992": {
+  "country": null,
+  "domain": null
+ },
+ "qatarenergy": {
+  "country": "QA",
+  "domain": "qatarenergy.qa"
+ },
+ "petronas": {
+  "country": "MY",
+  "domain": "petronas.com"
+ },
+ "pertamina": {
+  "country": "ID",
+  "domain": "pertamina.com"
+ },
+ "lukoil": {
+  "country": "RU",
+  "domain": "lukoil.com"
+ },
+ "libya-national-oil-corp": {
+  "country": "LY",
+  "domain": "noc.ly"
+ },
+ "equinor": {
+  "country": "NO",
+  "domain": "equinor.com"
+ },
+ "anglo-american": {
+  "country": "GB",
+  "domain": "angloamerican.com"
+ },
+ "rwe": {
+  "country": "DE",
+  "domain": "rwe.com"
+ },
+ "shanxi-coking-coal-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "shaanxi-coal-and-chemical-industry-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "glencore": {
+  "country": "CH",
+  "domain": "glencore.com"
+ },
+ "rio-tinto-1959-2018": {
+  "country": "GB",
+  "domain": "riotinto.com"
+ },
+ "alpha-metallurgical-resources": {
+  "country": "US",
+  "domain": "alphametresources.com"
+ },
+ "ongc": {
+  "country": "IN",
+  "domain": "ongcindia.com"
+ },
+ "suek": {
+  "country": "RU",
+  "domain": "suek.com"
+ },
+ "sasol": {
+  "country": "ZA",
+  "domain": "sasol.com"
+ },
+ "surgutneftegas": {
+  "country": "RU",
+  "domain": "surgutneftegas.ru"
+ },
+ "turkmengaz": {
+  "country": "TM",
+  "domain": null
+ },
+ "repsol": {
+  "country": "ES",
+  "domain": "repsol.com"
+ },
+ "petroleum-development-oman": {
+  "country": "OM",
+  "domain": "pdo.co.om"
+ },
+ "cnooc": {
+  "country": "CN",
+  "domain": "cnoocltd.com"
+ },
+ "north-korea": {
+  "country": "KP",
+  "domain": null
+ },
+ "egyptian-general-petroleum": {
+  "country": "EG",
+  "domain": "egpc.com.eg"
+ },
+ "petoro": {
+  "country": "NO",
+  "domain": "petoro.no"
+ },
+ "henan-energy-and-chemical-industry-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "sinopec": {
+  "country": "CN",
+  "domain": "sinopec.com"
+ },
+ "china-huaneng-group": {
+  "country": "CN",
+  "domain": "chng.com.cn"
+ },
+ "samruk-kazyna": {
+  "country": "KZ",
+  "domain": "sk.kz"
+ },
+ "luan-chemical-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "state-power-investment-corporation": {
+  "country": "CN",
+  "domain": "spic.com.cn"
+ },
+ "bumi-resources": {
+  "country": "ID",
+  "domain": "bumiresources.com"
+ },
+ "jizhong-energy-resources": {
+  "country": "CN",
+  "domain": null
+ },
+ "sonangol": {
+  "country": "AO",
+  "domain": "sonangol.co.ao"
+ },
+ "uzbekneftegaz": {
+  "country": "UZ",
+  "domain": "ung.uz"
+ },
+ "novatek": {
+  "country": "RU",
+  "domain": "novatek.ru"
+ },
+ "singareni-collieries": {
+  "country": "IN",
+  "domain": "scclmines.com"
+ },
+ "devon-energy": {
+  "country": "US",
+  "domain": "devonenergy.com"
+ },
+ "huaihe-energy-holding-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "huayang-new-material-technology-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "ecopetrol": {
+  "country": "CO",
+  "domain": "ecopetrol.com.co"
+ },
+ "suncor-energy": {
+  "country": "CA",
+  "domain": "suncor.com"
+ },
+ "holcim-group": {
+  "country": "CH",
+  "domain": "holcim.com"
+ },
+ "liaoning-energy-industry-holding-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "ovintiv": {
+  "country": "US",
+  "domain": "ovintiv.com"
+ },
+ "canadian-natural-resources": {
+  "country": "CA",
+  "domain": "cnrl.com"
+ },
+ "expand-energy": {
+  "country": "US",
+  "domain": "expandenergy.com"
+ },
+ "ukrainian-ministry-of-energy-coal-1992-2012": {
+  "country": "UA",
+  "domain": null
+ },
+ "kuzbassrazrezugol": {
+  "country": "RU",
+  "domain": null
+ },
+ "kailuan-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "polska-grupa-gornicza-pgg": {
+  "country": "PL",
+  "domain": "pgg.pl"
+ },
+ "cyprus-amax-minerals-1969-1998": {
+  "country": "US",
+  "domain": null
+ },
+ "heilongjiang-longmay-mining-holding-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "inner-mongolia-yitai-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "american-consolidated-natural-resources": {
+  "country": "US",
+  "domain": null
+ },
+ "westmoreland-mining": {
+  "country": "US",
+  "domain": null
+ },
+ "basf": {
+  "country": "DE",
+  "domain": "basf.com"
+ },
+ "alamtri-resources": {
+  "country": "ID",
+  "domain": null
+ },
+ "exxaro-resources-ltd": {
+  "country": "ZA",
+  "domain": "exxaro.com"
+ },
+ "bapco-energies": {
+  "country": "BH",
+  "domain": "bapcoenergies.com"
+ },
+ "inner-mongolia-dian-tou-energy": {
+  "country": "CN",
+  "domain": null
+ },
+ "cenovus-energy": {
+  "country": "CA",
+  "domain": "cenovus.com"
+ },
+ "mitsubishi-corporation": {
+  "country": "JP",
+  "domain": "mitsubishicorp.com"
+ },
+ "apa-corporation": {
+  "country": "US",
+  "domain": "apacorp.com"
+ },
+ "ypf": {
+  "country": "AR",
+  "domain": "ypf.com"
+ },
+ "banpu": {
+  "country": "TH",
+  "domain": "banpu.com"
+ },
+ "china-pingmei-shenma-holding-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "tatneft": {
+  "country": "RU",
+  "domain": "tatneft.ru"
+ },
+ "eurasian-resources-group": {
+  "country": "LU",
+  "domain": null
+ },
+ "eog-resources": {
+  "country": "US",
+  "domain": "eogresources.com"
+ },
+ "petroecuador": {
+  "country": "EC",
+  "domain": "eppetroecuador.ec"
+ },
+ "alliance-resource-partners": {
+  "country": "US",
+  "domain": "arlp.com"
+ },
+ "heidelberg-materials": {
+  "country": "DE",
+  "domain": "heidelbergmaterials.com"
+ },
+ "inpex": {
+  "country": "JP",
+  "domain": "inpex.com"
+ },
+ "kiewit-mining-group": {
+  "country": "US",
+  "domain": "kiewit.com"
+ },
+ "nacco-industries": {
+  "country": "US",
+  "domain": "nacco.com"
+ },
+ "inner-mongolia-huineng-coal-and-electricity-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "huadian-coal-industry-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "syrian-petroleum": {
+  "country": "SY",
+  "domain": null
+ },
+ "teck-resources": {
+  "country": "CA",
+  "domain": "teck.com"
+ },
+ "huaibei-mining-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "evraz": {
+  "country": "GB",
+  "domain": "evraz.com"
+ },
+ "cloud-peak-2009-2019": {
+  "country": "US",
+  "domain": null
+ },
+ "pge-group": {
+  "country": "PL",
+  "domain": "gkpge.pl"
+ },
+ "dtek": {
+  "country": "UA",
+  "domain": "dtek.com"
+ },
+ "vistra": {
+  "country": "US",
+  "domain": "vistracorp.com"
+ },
+ "coterra-energy": {
+  "country": "US",
+  "domain": "coterra.com"
+ },
+ "mechel": {
+  "country": "RU",
+  "domain": "mechel.com"
+ },
+ "naftogaz": {
+  "country": "UA",
+  "domain": "naftogaz.com"
+ },
+ "eqt-corporation": {
+  "country": "US",
+  "domain": "eqt.com"
+ },
+ "pttep": {
+  "country": "TH",
+  "domain": "pttep.com"
+ },
+ "inner-mongolia-yidong-resources-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "guizhou-panjiang-coal-power-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "xuzhou-mining-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "inner-mongolia-mengtai-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "omv": {
+  "country": "AT",
+  "domain": "omv.com"
+ },
+ "diamondback-energy": {
+  "country": "US",
+  "domain": "diamondbackenergy.com"
+ },
+ "woodside-energy": {
+  "country": "AU",
+  "domain": "woodside.com"
+ },
+ "huating-coal-industry-group": {
+  "country": "CN",
+  "domain": null
+ },
+ "santos": {
+  "country": "AU",
+  "domain": "santos.com"
+ },
+ "en-group": {
+  "country": null,
+  "domain": null
+ },
+ "cemex": {
+  "country": "MX",
+  "domain": "cemex.com"
+ },
+ "sds-coal": {
+  "country": "RU",
+  "domain": null
+ },
+ "uk-coal-1995-2015": {
+  "country": "GB",
+  "domain": null
+ },
+ "tourmaline-oil": {
+  "country": "CA",
+  "domain": "tourmalineoil.com"
+ },
+ "jsw": {
+  "country": "IN",
+  "domain": "jsw.in"
+ },
+ "murphy-oil": {
+  "country": "US",
+  "domain": "murphyoilcorp.com"
+ },
+ "orlen": {
+  "country": "PL",
+  "domain": "orlen.pl"
+ },
+ "mubadala": {
+  "country": "AE",
+  "domain": "mubadala.com"
+ },
+ "antero-resources": {
+  "country": "US",
+  "domain": "anteroresources.com"
+ },
+ "severstal": {
+  "country": "RU",
+  "domain": "severstal.com"
+ },
+ "novaya-gornaya": {
+  "country": "RU",
+  "domain": null
+ },
+ "xinjiang-tianchi-energy": {
+  "country": "CN",
+  "domain": null
+ },
+ "metinvest": {
+  "country": "UA",
+  "domain": "metinvestholding.com"
+ },
+ "arc-resources": {
+  "country": "CA",
+  "domain": "arcresources.com"
+ },
+ "seriti-resources": {
+  "country": "ZA",
+  "domain": null
+ },
+ "taiheiyo-cement": {
+  "country": "JP",
+  "domain": "taiheiyo-cement.co.jp"
+ },
+ "russian-coal": {
+  "country": "RU",
+  "domain": null
+ },
+ "continental-resources": {
+  "country": "US",
+  "domain": "clr.com"
+ },
+ "adani-group": {
+  "country": "IN",
+  "domain": "adani.com"
+ },
+ "navajo-transitional-energy-company": {
+  "country": "US",
+  "domain": null
+ },
+ "sibanthracite-group": {
+  "country": "RU",
+  "domain": null
+ },
+ "kazakhmys-holding-group": {
+  "country": "KZ",
+  "domain": null
+ },
+ "whitehaven-coal": {
+  "country": "AU",
+  "domain": "whitehavencoal.com.au"
+ },
+ "ultratech-cement": {
+  "country": "IN",
+  "domain": "ultratechcement.com"
+ },
+ "stroyservis": {
+  "country": "RU",
+  "domain": null
+ },
+ "kuzbasskaya-toplivnaya": {
+  "country": "RU",
+  "domain": null
+ },
+ "severoceske-doly": {
+  "country": "CZ",
+  "domain": null
+ },
+ "arcelormittal-2000-2023": {
+  "country": "LU",
+  "domain": "arcelormittal.com"
+ },
+ "lw-bogdanka": {
+  "country": "PL",
+  "domain": "lw.com.pl"
+ },
+ "wolverine-fuels": {
+  "country": "US",
+  "domain": "wolverinefuels.com"
+ },
+ "sm-energy": {
+  "country": "US",
+  "domain": "sm-energy.com"
+ },
+ "obsidian-energy": {
+  "country": "CA",
+  "domain": "obsidianenergy.com"
+ },
+ "okd": {
+  "country": "CZ",
+  "domain": null
+ },
+ "ntpc": {
+  "country": "IN",
+  "domain": "ntpc.co.in"
+ },
+ "vale-2007-2022": {
+  "country": "BR",
+  "domain": "vale.com"
+ },
+ "cnx-resources": {
+  "country": "US",
+  "domain": "cnx.com"
+ },
+ "elgaugol": {
+  "country": "RU",
+  "domain": null
+ },
+ "crh": {
+  "country": "IE",
+  "domain": "crh.com"
+ },
+ "sev-en-group": {
+  "country": "CZ",
+  "domain": null
+ },
+ "poludniowy-koncern-weglowy": {
+  "country": "PL",
+  "domain": null
+ },
+ "tullow-oil": {
+  "country": "GB",
+  "domain": "tullowoil.com"
+ },
+ "taltek": {
+  "country": "RU",
+  "domain": null
+ },
+ "sokolovska-uhelna": {
+  "country": "CZ",
+  "domain": null
+ }
+}
