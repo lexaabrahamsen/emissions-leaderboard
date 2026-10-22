@@ -36,3 +36,10 @@ export function buildMapShapes(): MapShape[] {
     ];
   });
 }
+
+/** Flag emoji for an ISO3 code, or '' when there is no ISO2 equivalent (OWID has a few odd codes). */
+export function flagEmoji(iso3: string): string {
+  const iso2 = countries.alpha3ToAlpha2(iso3);
+  if (!iso2) return '';
+  return [...iso2].map((c) => String.fromCodePoint(0x1f1e6 + c.charCodeAt(0) - 65)).join('');
+}

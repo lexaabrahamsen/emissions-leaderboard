@@ -6,9 +6,11 @@ import './EmissionsMap.css';
 
 type Metric = 'total' | 'perCapita';
 
+type MapRow = CountryEmissions & { flag: string };
+
 interface Props {
   shapes: MapShape[];
-  rows: CountryEmissions[];
+  rows: MapRow[];
   year: number;
 }
 
@@ -22,7 +24,7 @@ const BINS: Record<Metric, number[]> = {
 const UNITS: Record<Metric, string> = { total: 'Mt CO₂', perCapita: 't CO₂ per person' };
 const LABELS: Record<Metric, string> = { total: 'Total emissions', perCapita: 'Per person' };
 
-const value = (r: CountryEmissions, m: Metric) => (m === 'total' ? r.co2Mt : r.co2PerCapitaT);
+const value = (r: MapRow, m: Metric) => (m === 'total' ? r.co2Mt : r.co2PerCapitaT);
 
 function binIndex(v: number, m: Metric): number {
   const bins = BINS[m];
@@ -102,7 +104,7 @@ export default function EmissionsMap({ shapes, rows, year }: Props) {
               </strong>{' '}
               <span>{UNITS[metric]}</span>
               <div className="emap-name">
-                {shown.name}, {year}
+                <span aria-hidden="true">{shown.flag}</span> {shown.name}, {year}
               </div>
             </>
           ) : (
@@ -145,7 +147,9 @@ export default function EmissionsMap({ shapes, rows, year }: Props) {
                 onPointerLeave={() => setActive(null)}
               >
                 <td>{i + 1}</td>
-                <th scope="row">{r.name}</th>
+                <th scope="row">
+                  <span aria-hidden="true">{r.flag}</span> {r.name}
+                </th>
                 <td className="num">{format(value(r, metric) as number, metric)}</td>
               </tr>
             ))}

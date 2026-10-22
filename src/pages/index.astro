@@ -2,7 +2,7 @@
 import EmissionsMap from '../components/EmissionsMap';
 import Base from '../layouts/Base.astro';
 import { loadCountries, loadLeaderboard, loadMeta } from '../lib/data';
-import { buildMapShapes } from '../lib/map';
+import { buildMapShapes, flagEmoji } from '../lib/map';
 import { formatMt, formatPct } from '../lib/format';
 
 const meta = loadMeta();
@@ -11,6 +11,7 @@ const latest = loadLeaderboard(meta.latestYear);
 const top = latest.rows.slice(0, 5);
 const countries = loadCountries();
 const shapes = countries ? buildMapShapes() : [];
+const mapRows = countries?.rows.map((r) => ({ ...r, flag: flagEmoji(r.iso3) })) ?? [];
 ---
 
 <Base title="Home">
@@ -56,7 +57,7 @@ const shapes = countries ? buildMapShapes() : [];
         Territorial CO₂ from fossil fuels and cement, {countries.year}. Switch to per-person to see how
         the picture changes: the largest totals are not the largest footprints per head.
       </p>
-      <EmissionsMap client:visible shapes={shapes} rows={countries.rows} year={countries.year} />
+      <EmissionsMap client:visible shapes={shapes} rows={mapRows} year={countries.year} />
     </section>
   )}
 </Base>
