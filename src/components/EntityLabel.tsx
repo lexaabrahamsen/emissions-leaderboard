@@ -5,6 +5,8 @@ interface Props {
   name: string;
   logo?: string | null;
   country?: string | null;
+  /** Set false where the flag has its own column. */
+  showFlag?: boolean;
   /** Wraps the name in a link when set. */
   href?: string;
   /** Prefix for asset URLs (the leaderboard island is mounted under Astro's base). */
@@ -12,8 +14,8 @@ interface Props {
 }
 
 /** Producer name with its logo before it and home-country flag after it. Both are decorative. */
-export default function EntityLabel({ name, logo, country, href, base = '' }: Props) {
-  const flag = flagFromIso2(country);
+export default function EntityLabel({ name, logo, country, showFlag = true, href, base = '' }: Props) {
+  const flag = showFlag ? flagFromIso2(country) : '';
   return (
     <span className="entity-label">
       <span className="entity-logo" aria-hidden="true">
@@ -25,6 +27,28 @@ export default function EntityLabel({ name, logo, country, href, base = '' }: Pr
           {flag}
         </span>
       )}
+    </span>
+  );
+}
+
+const regionNames = typeof Intl !== 'undefined' && 'DisplayNames' in Intl ? new Intl.DisplayNames(['en'], { type: 'region' }) : null;
+
+/** A flag in its own table column. Shows a muted dash when there is no flag to show. */
+export function CountryCell({ country }: { country?: string | null }) {
+  const flag = flagFromIso2(country);
+  if (!flag) {
+    return (
+      <span className="country-cell no-flag" title="No flag available">
+        <span aria-hidden="true">—</span>
+        <span className="visually-hidden">No flag available</span>
+      </span>
+    );
+  }
+  const name = (country && regionNames?.of(country)) || country || '';
+  return (
+    <span className="country-cell" title={name}>
+      <span aria-hidden="true">{flag}</span>
+      <span className="visually-hidden">{name}</span>
     </span>
   );
 }

@@ -16,7 +16,7 @@ import {
   type LeaderboardYear,
 } from '../../pipeline/types.ts';
 import { COMMODITY_LABEL, ENTITY_TYPE_LABEL, formatMt, formatPct } from '../lib/format';
-import EntityLabel from './EntityLabel';
+import EntityLabel, { CountryCell } from './EntityLabel';
 import Sparkline from './Sparkline';
 import './Leaderboard.css';
 
@@ -145,6 +145,11 @@ export default function Leaderboard({ years, defaultYear }: Props) {
 
   const columns = useMemo(
     () => [
+      col.accessor('country', {
+        header: 'Country',
+        cell: (c) => <CountryCell country={c.getValue()} />,
+        enableSorting: false,
+      }),
       col.accessor('rank', { header: '#', cell: (c) => c.getValue(), enableSorting: false }),
       col.accessor('name', {
         header: 'Producer',
@@ -153,12 +158,13 @@ export default function Leaderboard({ years, defaultYear }: Props) {
             name={c.getValue()}
             logo={c.row.original.logo}
             country={c.row.original.country}
+            showFlag={false}
             href={`${BASE}/companies/${c.row.original.slug}`}
             base={BASE}
           />
         ),
       }),
-      col.accessor('type', { header: 'Ownership', cell: (c) => ENTITY_TYPE_LABEL[c.getValue()] }),
+      col.accessor('type', { header: 'Ownership', cell: (c) => <span style={{ whiteSpace: 'nowrap' }}>{ENTITY_TYPE_LABEL[c.getValue()]}</span> }),
       col.accessor('value', {
         header: () => (view.metric === 'annual' ? `Emissions, ${view.year}` : `Cumulative through ${view.year}`),
         cell: (c) => <span className="num">{formatMt(c.getValue())}</span>,
