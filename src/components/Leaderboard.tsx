@@ -6,6 +6,8 @@ import {
   useReactTable,
   type SortingState,
 } from '@tanstack/react-table';
+import { Checkbox, Group, Input, Paper, Stack, SegmentedControl, Select, Table, Text, UnstyledButton } from '@mantine/core';
+import { IconArrowDown, IconArrowUp, IconArrowsSort } from '@tabler/icons-react';
 import { useEffect, useMemo, useState } from 'react';
 import {
   COMMODITIES,
@@ -17,6 +19,7 @@ import {
 } from '../../pipeline/types.ts';
 import { COMMODITY_LABEL, ENTITY_TYPE_LABEL, formatMt, formatPct } from '../lib/format';
 import EntityLabel, { CountryCell } from './EntityLabel';
+import MantineRoot from './MantineRoot';
 import Sparkline from './Sparkline';
 import './Leaderboard.css';
 
@@ -84,7 +87,7 @@ function writeUrl(s: ViewState, defaults: ViewState) {
 
 const col = createColumnHelper<Row>();
 
-export default function Leaderboard({ years, defaultYear }: Props) {
+function LeaderboardInner({ years, defaultYear }: Props) {
   const defaults: ViewState = { year: defaultYear, metric: 'annual', commodity: 'all', types: [...ENTITY_TYPES] };
   const [view, setView] = useState<ViewState>(defaults);
   const [urlReady, setUrlReady] = useState(false);
@@ -199,112 +202,118 @@ export default function Leaderboard({ years, defaultYear }: Props) {
   });
 
   const update = (patch: Partial<ViewState>) => setView((v) => ({ ...v, ...patch }));
-  const toggleType = (t: EntityType) =>
-    setView((v) => {
-      const next = v.types.includes(t) ? v.types.filter((x) => x !== t) : [...v.types, t];
-      return { ...v, types: next.length ? next : v.types }; // never allow an empty selection
-    });
-
   return (
     <div className="leaderboard">
-      <form className="filters" onSubmit={(e) => e.preventDefault()}>
-        <label className="field">
-          <span>Year</span>
-          <select value={view.year} onChange={(e) => update({ year: Number(e.target.value) })}>
-            {[...years].reverse().map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </select>
-        </label>
+      <Paper withBorder p="md" radius="lg" component="form" onSubmit={(e: { preventDefault: () => void }) => e.preventDefault()}>
+        <Group align="flex-end" gap="lg" wrap="wrap">
+          <Select
+            label="Year"
+            w={110}
+            data={[...years].reverse().map((y) => String(y))}
+            value={String(view.year)}
+            onChange={(v) => v && update({ year: Number(v) })}
+            allowDeselect={false}
+            checkIconPosition="right"
+            maxDropdownHeight={280}
+          />
 
-        <fieldset className="field">
-          <legend>Measure</legend>
-          <div className="segmented">
-            {(['annual', 'cumulative'] as const).map((m) => (
-              <label key={m}>
-                <input type="radio" name="metric" checked={view.metric === m} onChange={() => update({ metric: m })} />
-                <span>{m === 'annual' ? 'That year' : 'Cumulative'}</span>
-              </label>
-            ))}
-          </div>
-        </fieldset>
+          <Stack gap={4}>
+            <Input.Label>Measure</Input.Label>
+            <SegmentedControl
+              data={[
+                { label: 'That year', value: 'annual' },
+                { label: 'Cumulative', value: 'cumulative' },
+              ]}
+              value={view.metric}
+              onChange={(v) => update({ metric: v as Metric })}
+              aria-label="Measure"
+            />
+          </Stack>
 
-        <label className="field">
-          <span>Commodity</span>
-          <select value={view.commodity} onChange={(e) => update({ commodity: e.target.value as CommodityFilter })}>
-            <option value="all">All commodities</option>
-            {COMMODITIES.map((c) => (
-              <option key={c} value={c}>
-                {COMMODITY_LABEL[c]}
-              </option>
-            ))}
-          </select>
-        </label>
+          <Select
+            label="Commodity"
+            w={200}
+            data={[{ value: 'all', label: 'All commodities' }, ...COMMODITIES.map((c) => ({ value: c, label: COMMODITY_LABEL[c] }))]}
+            value={view.commodity}
+            onChange={(v) => v && update({ commodity: v as CommodityFilter })}
+            allowDeselect={false}
+            checkIconPosition="right"
+          />
 
-        <fieldset className="field">
-          <legend>Ownership</legend>
-          <div className="checks">
-            {ENTITY_TYPES.map((t) => (
-              <label key={t}>
-                <input type="checkbox" checked={view.types.includes(t)} onChange={() => toggleType(t)} />
-                <span>{ENTITY_TYPE_LABEL[t]}</span>
-              </label>
-            ))}
-          </div>
-        </fieldset>
-      </form>
+          <Checkbox.Group
+            label="Ownership"
+            value={view.types}
+            // Never allow an empty selection.
+            onChange={(v) => v.length && update({ types: v as EntityType[] })}
+          >
+            <Group gap="md" mih={36}>
+              {ENTITY_TYPES.map((t) => (
+                <Checkbox key={t} value={t} label={ENTITY_TYPE_LABEL[t]} />
+              ))}
+            </Group>
+          </Checkbox.Group>
+        </Group>
+      </Paper>
 
-      <p className="status" aria-live="polite">
+      <Text size="sm" c="dimmed" mt="md" mb="xs" aria-live="polite">
         {error ?? (data ? `${rows.length} producers` : 'Loading…')}
-      </p>
+      </Text>
 
-      <div className="table-wrap">
-        <table>
-          <caption className="visually-hidden">
+      <Table.ScrollContainer minWidth={720}>
+        <Table verticalSpacing="sm" horizontalSpacing="md" highlightOnHover className="lb-table">
+          <Table.Caption className="visually-hidden">
             Producers ranked by {view.metric === 'annual' ? `emissions in ${view.year}` : `cumulative emissions through ${view.year}`}
             {view.commodity !== 'all' ? `, ${COMMODITY_LABEL[view.commodity]} only` : ''}. Values in CO₂-equivalent.
-          </caption>
-          <thead>
+          </Table.Caption>
+          <Table.Thead>
             {table.getHeaderGroups().map((hg) => (
-              <tr key={hg.id}>
+              <Table.Tr key={hg.id}>
                 {hg.headers.map((h) => {
                   const sorted = h.column.getIsSorted();
                   return (
-                    <th
+                    <Table.Th
                       key={h.id}
                       scope="col"
                       className={`col-${h.column.id}`}
                       aria-sort={sorted === 'asc' ? 'ascending' : sorted === 'desc' ? 'descending' : undefined}
                     >
                       {h.column.getCanSort() ? (
-                        <button type="button" onClick={h.column.getToggleSortingHandler()}>
+                        <UnstyledButton className="sort-btn" onClick={h.column.getToggleSortingHandler()}>
                           {flexRender(h.column.columnDef.header, h.getContext())}
-                          <span aria-hidden="true">{sorted === 'asc' ? ' ↑' : sorted === 'desc' ? ' ↓' : ''}</span>
-                        </button>
+                          <span aria-hidden="true" className="sort-icon">
+                            {sorted === 'asc' ? <IconArrowUp size={14} /> : sorted === 'desc' ? <IconArrowDown size={14} /> : <IconArrowsSort size={14} />}
+                          </span>
+                        </UnstyledButton>
                       ) : (
                         flexRender(h.column.columnDef.header, h.getContext())
                       )}
-                    </th>
+                    </Table.Th>
                   );
                 })}
-              </tr>
+              </Table.Tr>
             ))}
-          </thead>
-          <tbody>
+          </Table.Thead>
+          <Table.Tbody>
             {table.getRowModel().rows.map((r) => (
-              <tr key={r.id}>
+              <Table.Tr key={r.id}>
                 {r.getVisibleCells().map((c) => (
-                  <td key={c.id} className={`col-${c.column.id}`}>
+                  <Table.Td key={c.id} className={`col-${c.column.id}`}>
                     {flexRender(c.column.columnDef.cell, c.getContext())}
-                  </td>
+                  </Table.Td>
                 ))}
-              </tr>
+              </Table.Tr>
             ))}
-          </tbody>
-        </table>
-      </div>
+          </Table.Tbody>
+        </Table>
+      </Table.ScrollContainer>
     </div>
+  );
+}
+
+export default function Leaderboard(props: Props) {
+  return (
+    <MantineRoot>
+      <LeaderboardInner {...props} />
+    </MantineRoot>
   );
 }

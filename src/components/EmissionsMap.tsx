@@ -1,7 +1,9 @@
+import { Paper, SegmentedControl, Table } from '@mantine/core';
 import { useMemo, useState } from 'react';
 import type { CountryEmissions } from '../../pipeline/types.ts';
 import type { MapShape } from '../lib/map.ts';
 import { MAP_HEIGHT, MAP_WIDTH } from '../lib/map.ts';
+import MantineRoot from './MantineRoot';
 import './EmissionsMap.css';
 
 type Metric = 'total' | 'perCapita';
@@ -48,7 +50,7 @@ function binLabel(i: number, m: Metric): string {
   return lo === 0 ? `< ${fmt(hi)}` : `${fmt(lo)}–${fmt(hi)}`;
 }
 
-export default function EmissionsMap({ shapes, rows, year }: Props) {
+function EmissionsMapInner({ shapes, rows, year }: Props) {
   const [metric, setMetric] = useState<Metric>('total');
   const [active, setActive] = useState<string | null>(null);
 
@@ -64,14 +66,13 @@ export default function EmissionsMap({ shapes, rows, year }: Props) {
 
   return (
     <div className="emap">
-      <div className="emap-controls" role="radiogroup" aria-label="Map measure">
-        {(Object.keys(LABELS) as Metric[]).map((m) => (
-          <label key={m} className={metric === m ? 'is-on' : ''}>
-            <input type="radio" name="emap-metric" checked={metric === m} onChange={() => setMetric(m)} />
-            {LABELS[m]}
-          </label>
-        ))}
-      </div>
+      <SegmentedControl
+        mb="md"
+        aria-label="Map measure"
+        data={(Object.keys(LABELS) as Metric[]).map((m) => ({ value: m, label: LABELS[m] }))}
+        value={metric}
+        onChange={(v) => setMetric(v as Metric)}
+      />
 
       <div className="emap-stage">
         <svg
@@ -96,7 +97,7 @@ export default function EmissionsMap({ shapes, rows, year }: Props) {
           })}
         </svg>
 
-        <div className="emap-readout" aria-live="polite">
+        <Paper withBorder shadow="sm" radius="md" px="sm" py={8} className="emap-readout" aria-live="polite">
           {shown ? (
             <>
               <strong className="num">
@@ -110,7 +111,7 @@ export default function EmissionsMap({ shapes, rows, year }: Props) {
           ) : (
             <span className="emap-hint">Hover a country, or use the table below.</span>
           )}
-        </div>
+        </Paper>
       </div>
 
       <ul className="emap-legend" aria-label={`Colour scale, ${UNITS[metric]}`}>
@@ -129,33 +130,39 @@ export default function EmissionsMap({ shapes, rows, year }: Props) {
 
       <details className="emap-table">
         <summary>Show the 15 highest-emitting countries as a table</summary>
-        <table>
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Country</th>
-              <th scope="col" className="num">
+        <Table verticalSpacing="xs" highlightOnHover mt="sm">
+          <Table.Thead>
+            <Table.Tr>
+              <Table.Th scope="col">#</Table.Th>
+              <Table.Th scope="col">Country</Table.Th>
+              <Table.Th scope="col" ta="right">
                 {UNITS[metric]}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
+              </Table.Th>
+            </Table.Tr>
+          </Table.Thead>
+          <Table.Tbody>
             {ranked.slice(0, 15).map((r, i) => (
-              <tr
-                key={r.iso3}
-                onPointerEnter={() => setActive(r.iso3)}
-                onPointerLeave={() => setActive(null)}
-              >
-                <td>{i + 1}</td>
-                <th scope="row">
+              <Table.Tr key={r.iso3} onPointerEnter={() => setActive(r.iso3)} onPointerLeave={() => setActive(null)}>
+                <Table.Td>{i + 1}</Table.Td>
+                <Table.Th scope="row" fw={400}>
                   <span aria-hidden="true">{r.flag}</span> {r.name}
-                </th>
-                <td className="num">{format(value(r, metric) as number, metric)}</td>
-              </tr>
+                </Table.Th>
+                <Table.Td ta="right" className="num">
+                  {format(value(r, metric) as number, metric)}
+                </Table.Td>
+              </Table.Tr>
             ))}
-          </tbody>
-        </table>
+          </Table.Tbody>
+        </Table>
       </details>
     </div>
+  );
+}
+
+export default function EmissionsMap(props: Props) {
+  return (
+    <MantineRoot>
+      <EmissionsMapInner {...props} />
+    </MantineRoot>
   );
 }

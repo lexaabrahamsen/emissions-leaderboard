@@ -11,7 +11,7 @@
   --outline: #151412;
 }
 
-:root[data-theme='light'] .emap {
+:root[data-mantine-color-scheme='light'] .emap {
   --bin-0: #fbe6dc;
   --bin-1: #f6c3a8;
   --bin-2: #ec9468;
@@ -21,15 +21,6 @@
   --nodata: #e9e6de;
   --outline: #fbfaf7;
 }
-
-.emap-controls { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
-.emap-controls label {
-  padding: 0.4rem 0.9rem; border: 1px solid var(--border); border-radius: 999px;
-  font-size: 0.9rem; cursor: pointer; background: var(--surface);
-}
-.emap-controls label.is-on { border-color: var(--text); font-weight: 600; }
-.emap-controls input { position: absolute; opacity: 0; pointer-events: none; }
-.emap-controls label:focus-within { outline: 2px solid var(--focus); outline-offset: 2px; }
 
 .emap-stage { position: relative; }
 .emap-stage svg { width: 100%; height: auto; display: block; }
@@ -46,8 +37,7 @@
 
 .emap-readout {
   position: absolute; top: 0.5rem; left: 0.5rem; min-width: 11rem;
-  padding: 0.5rem 0.75rem; background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 .emap-readout strong { font-size: 1.25rem; }
 .emap-name { color: var(--text-muted); }
@@ -70,7 +60,3 @@
 
 .emap-table { margin-top: 1rem; max-width: 32rem; }
 .emap-table summary { cursor: pointer; font-size: 0.9rem; }
-.emap-table table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; }
-.emap-table th, .emap-table td { padding: 0.35rem 0.5rem; border-bottom: 1px solid var(--border); text-align: left; font-weight: 400; }
-.emap-table .num { text-align: right; }
-.emap-table tbody tr:hover { background: var(--accent-soft); }
