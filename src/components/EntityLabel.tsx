@@ -13,13 +13,24 @@ interface Props {
   base?: string;
 }
 
-/** Producer name with its logo before it and home-country flag after it. Both are decorative. */
+/** Up to two initials from the first words of a name, ignoring parentheses and years. */
+function initials(name: string): string {
+  const words = name.replace(/\(.*?\)/g, ' ').split(/[\s-]+/).filter((w) => /^[A-Za-z]/.test(w));
+  return words.slice(0, 2).map((w) => w[0].toUpperCase()).join('');
+}
+
+/** Producer name with its logo before it and home-country flag after it. Both are decorative.
+ *  Producers without a logo get a neutral monogram chip so rows stay aligned and complete. */
 export default function EntityLabel({ name, logo, country, showFlag = true, href, base = '' }: Props) {
   const flag = showFlag ? flagFromIso2(country) : '';
   return (
     <span className="entity-label">
       <span className="entity-logo" aria-hidden="true">
-        {logo && <img src={`${base}/logos/${logo}`} alt="" width={20} height={20} loading="lazy" decoding="async" />}
+        {logo ? (
+          <img src={`${base}/logos/${logo}`} alt="" width={20} height={20} loading="lazy" decoding="async" />
+        ) : (
+          <span className="entity-monogram">{initials(name)}</span>
+        )}
       </span>
       {href ? <a href={href}>{name}</a> : <span>{name}</span>}
       {flag && (

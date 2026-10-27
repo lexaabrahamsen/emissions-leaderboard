@@ -2,10 +2,11 @@
 // Run manually: node pipeline/fetch-logos.ts   (not part of `pnpm data`; needs network)
 //
 // Icons come from Google's favicon service, so they are small (≤64px) and some sites have none.
+// To use your own logo for a producer, save it as public/logos/<slug>.png (or .jpg/.svg/.webp) and rerun.
 // public/logos/ is gitignored: these are third-party trademarks, so they are not redistributed
 // in the repo. The site simply omits a logo when the file is missing.
 
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ROOT = new URL('..', import.meta.url).pathname;
@@ -35,6 +36,12 @@ const manifest: Record<string, string> = {};
 const missed: string[] = [];
 
 for (const [slug, m] of Object.entries(meta)) {
+  // Any file already in public/logos/ (hand-added or fetched earlier) is kept as is; delete the folder to refetch.
+  const manual = ['png', 'jpg', 'svg', 'webp'].map((e) => `${slug}.${e}`).find((f) => existsSync(join(OUT, f)));
+  if (manual) {
+    manifest[slug] = manual;
+    continue;
+  }
   if (!m.domain) continue;
   const icon = await fetchIcon(m.domain);
   if (!icon) {

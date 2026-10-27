@@ -1,4 +1,4 @@
-/* The logo slot is always reserved so names line up whether or not a logo exists.
+/* The logo slot is always filled (logo or monogram) so names line up.
    Favicons are often dark-on-transparent, so they sit on a light chip that works in both themes. */
 .entity-label { display: inline-flex; align-items: center; gap: 0.5rem; }
 .entity-logo { flex: none; width: 20px; height: 20px; border-radius: 4px; display: inline-block; }
@@ -8,3 +8,9 @@
 
 .country-cell { font-size: 1.4rem; line-height: 1; }
 .country-cell.no-flag { color: var(--text-muted); font-size: 1rem; }
+
+.entity-monogram {
+  display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+  border-radius: 4px; background: var(--border); color: var(--text-muted);
+  font-size: 0.6rem; font-weight: 600; letter-spacing: 0.02em; line-height: 1;
+}
